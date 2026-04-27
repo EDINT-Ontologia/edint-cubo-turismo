@@ -1,0 +1,1770 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
+@prefix edintkoscountry: <http://vocab.linkeddata.es/datosabiertos/kos/edint/Country/> .
+
+#################################################################
+#
+#    Concept Scheme
+#
+#################################################################
+
+edintkos:Country a skos:ConceptScheme ; 
+    dct:issued "2026-04-24"^^xsd:date ;
+    dct:modified "2026-04-24"^^xsd:date ;
+    cc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the ontologies from the EDINT data space."@en ;
+    rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por las ontologías del espacio de datos EDINT."@es ;
+    rdfs:label "Country"@en ;
+    rdfs:label "País"@es ;
+    dct:title "Concept scheme grouping countries according to ISO 3166-1 alpha-2 and ISO 3166-1 alpha-3 notation"@en ;
+    dct:title "Esquema de conceptos que agrupa países según notación ISO 3166-1 alfa-2 e ISO 3166-1 alfa-3"@es .
+
+	
+#################################################################
+#
+#    Data type instances
+#
+#################################################################
+
+edintkoscountry:iso3166-1-alpha-2DT
+	a rdfs:Datatype.
+
+edintkoscountry:iso3166-1-alpha-3DT
+	a rdfs:Datatype.
+
+
+#################################################################
+#
+#    Concepts
+#
+#################################################################
+
+
+edintkoscountry:af a skos:Concept; 
+	skos:inScheme edintkos:Country; 
+	skos:notation "af"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "afg"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Afghanistan"@en.
+
+edintkoscountry:ax
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ax"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ala"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Aland Islands"@en.
+
+edintkoscountry:al
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "al"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "alb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Albania"@en.
+
+edintkoscountry:dz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "dz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "dza"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Algeria"@en.
+
+edintkoscountry:as
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "as"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "asm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "American Samoa"@en.
+
+edintkoscountry:ad
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ad"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "and"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Andorra"@en.
+
+edintkoscountry:ao
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ao"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ago"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Angola"@en.
+
+edintkoscountry:ai
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ai"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "aia"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Anguilla"@en.
+
+edintkoscountry:aq
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "aq"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ata"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Antarctica"@en.
+
+edintkoscountry:ag
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ag"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "atg"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Antigua and Barbuda"@en.
+
+edintkoscountry:ar
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ar"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "arg"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Argentina"@en.
+
+edintkoscountry:am
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "am"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "arm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Armenia"@en.
+
+edintkoscountry:aw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "aw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "abw"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Aruba"@en.
+
+edintkoscountry:au
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "au"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "aus"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Australia"@en.
+
+edintkoscountry:at
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "at"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "aut"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Austria"@en.
+
+edintkoscountry:az
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "az"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "aze"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Azerbaijan"@en.
+
+edintkoscountry:bs
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bs"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bhs"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bahamas"@en.
+
+edintkoscountry:bh
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bh"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bhr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bahrain"@en.
+
+edintkoscountry:bd
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bd"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bgd"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bangladesh"@en.
+
+edintkoscountry:bb
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bb"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "brb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Barbados"@en.
+
+edintkoscountry:by
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "by"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "blr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Belarus"@en.
+
+edintkoscountry:be
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "be"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bel"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Belgium"@en.
+
+edintkoscountry:bz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "blz"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Belize"@en.
+
+edintkoscountry:bj
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bj"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ben"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Benin"@en.
+
+edintkoscountry:bm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bmu"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bermuda"@en.
+
+edintkoscountry:bt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "btn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bhutan"@en.
+
+edintkoscountry:bo
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bo"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bol"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bolivia, Plurinational State of"@en.
+
+edintkoscountry:ba
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ba"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bih"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bosnia and Herzegovina"@en.
+
+edintkoscountry:bw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bwa"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Botswana"@en.
+
+edintkoscountry:bv
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bv"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bvt"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bouvet Island"@en.
+
+edintkoscountry:br
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "br"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bra"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Brazil"@en.
+
+edintkoscountry:io
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "io"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "iot"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "British Indian Ocean Territory"@en.
+
+edintkoscountry:bn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "brn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Brunei Darussalam"@en.
+
+edintkoscountry:bg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bgr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Bulgaria"@en.
+
+edintkoscountry:bf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bfa"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Burkina Faso"@en.
+
+edintkoscountry:bi
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bi"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "bdi"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Burundi"@en.
+
+edintkoscountry:kh
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kh"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "khm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cambodia"@en.
+
+edintkoscountry:cm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cmr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cameroon"@en.
+
+edintkoscountry:ca
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ca"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "can"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Canada"@en.
+
+edintkoscountry:cv
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cv"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cpv"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cape Verde"@en.
+
+edintkoscountry:ky
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ky"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cym"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cayman Islands"@en.
+
+edintkoscountry:cf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "caf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Central African Republic"@en.
+
+edintkoscountry:td
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "td"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tcd"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Chad"@en.
+
+edintkoscountry:cl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "chl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Chile"@en.
+
+edintkoscountry:cn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "chn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "China"@en.
+
+edintkoscountry:cx
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cx"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cxr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Christmas Island"@en.
+
+edintkoscountry:cc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cck"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cocos (Keeling) Islands"@en.
+
+edintkoscountry:co
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "co"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "col"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Colombia"@en.
+
+edintkoscountry:km
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "km"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "com"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Comoros"@en.
+
+edintkoscountry:cg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cog"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Congo"@en.
+
+edintkoscountry:cd
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cd"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cod"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Congo, the Democratic Republic of the"@en.
+
+edintkoscountry:ck
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ck"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cok"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cook Islands"@en.
+
+edintkoscountry:cr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cri"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Costa Rica"@en.
+
+edintkoscountry:ci
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ci"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "civ"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cote d'Ivoire"@en.
+
+edintkoscountry:hr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "hr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "hrv"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Croatia"@en.
+
+edintkoscountry:cu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cub"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cuba"@en.
+
+edintkoscountry:cy
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cy"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cyp"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Cyprus"@en.
+
+edintkoscountry:cz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "cz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "cze"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Czech Republic"@en.
+
+edintkoscountry:dk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "dk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "dnk"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Denmark"@en.
+
+edintkoscountry:dj
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "dj"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "dji"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Djibouti"@en.
+
+edintkoscountry:dm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "dm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "dma"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Dominica"@en.
+
+edintkoscountry:do
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "do"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "dom"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Dominican Republic"@en.
+
+edintkoscountry:ec
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ec"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ecu"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Ecuador"@en.
+
+edintkoscountry:eg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "eg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "egy"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Egypt"@en.
+
+edintkoscountry:sv
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sv"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "slv"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "El Salvador"@en.
+
+edintkoscountry:gq
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gq"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gnq"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Equatorial Guinea"@en.
+
+edintkoscountry:er
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "er"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "eri"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Eritrea"@en.
+
+edintkoscountry:ee
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ee"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "est"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Estonia"@en.
+
+edintkoscountry:et
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "et"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "eth"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Ethiopia"@en.
+
+edintkoscountry:fk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "fk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "flk"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Falkland Islands (Malvinas)"@en.
+
+edintkoscountry:fo
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "fo"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "fro"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Faroe Islands"@en.
+
+edintkoscountry:fj
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "fj"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "fji"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Fiji"@en.
+
+edintkoscountry:fi
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "fi"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "fin"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Finland"@en.
+
+edintkoscountry:fr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "fr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "fra"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "France"@en.
+
+edintkoscountry:gf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "guf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "French Guiana"@en.
+
+edintkoscountry:pf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pyf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "French Polynesia"@en.
+
+edintkoscountry:tf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "atf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "French Southern Territories"@en.
+
+edintkoscountry:ga
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ga"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gab"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Gabon"@en.
+
+edintkoscountry:gm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gmb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Gambia"@en.
+
+edintkoscountry:ge
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ge"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "geo"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Georgia"@en.
+
+edintkoscountry:de
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "de"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "deu"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Germany"@en.
+
+edintkoscountry:gh
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gh"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gha"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Ghana"@en.
+
+edintkoscountry:gi
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gi"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gib"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Gibraltar"@en.
+
+edintkoscountry:gr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "grc"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Greece"@en.
+
+edintkoscountry:gl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "grl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Greenland"@en.
+
+edintkoscountry:gd
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gd"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "grd"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Grenada"@en.
+
+edintkoscountry:gp
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gp"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "glp"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guadeloupe"@en.
+
+edintkoscountry:gu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gum"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guam"@en.
+
+edintkoscountry:gt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gtm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guatemala"@en.
+
+edintkoscountry:gg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ggy"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guernsey"@en.
+
+edintkoscountry:gn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gin"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guinea"@en.
+
+edintkoscountry:gw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gnb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guinea-Bissau"@en.
+
+edintkoscountry:gy
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gy"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "guy"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Guyana"@en.
+
+edintkoscountry:ht
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ht"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "hti"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Haiti"@en.
+
+edintkoscountry:hm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "hm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "hmd"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Heard Island and McDonald Islands"@en.
+
+edintkoscountry:va
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "va"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "vat"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Holy See (Vatican City State)"@en.
+
+edintkoscountry:hn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "hn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "hnd"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Honduras"@en.
+
+edintkoscountry:hk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "hk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "hkg"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Hong Kong"@en.
+
+edintkoscountry:hu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "hu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "hun"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Hungary"@en.
+
+edintkoscountry:is
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "is"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "isl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Iceland"@en.
+
+edintkoscountry:in
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "in"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ind"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "India"@en.
+
+edintkoscountry:id
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "id"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "idn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Indonesia"@en.
+
+edintkoscountry:ir
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ir"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "irn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Iran, Islamic Republic of"@en.
+
+edintkoscountry:iq
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "iq"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "irq"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Iraq"@en.
+
+edintkoscountry:ie
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ie"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "irl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Ireland"@en.
+
+edintkoscountry:im
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "im"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "imn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Isle of Man"@en.
+
+edintkoscountry:il
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "il"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "isr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Israel"@en.
+
+edintkoscountry:it
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "it"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ita"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Italy"@en.
+
+edintkoscountry:jm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "jm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "jam"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Jamaica"@en.
+
+edintkoscountry:jp
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "jp"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "jpn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Japan"@en.
+
+edintkoscountry:je
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "je"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "jey"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Jersey"@en.
+
+edintkoscountry:jo
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "jo"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "jor"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Jordan"@en.
+
+edintkoscountry:kz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "kaz"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Kazakhstan"@en.
+
+edintkoscountry:ke
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ke"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ken"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Kenya"@en.
+
+edintkoscountry:ki
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ki"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "kir"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Kiribati"@en.
+
+edintkoscountry:kp
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kp"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "prk"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Korea, Democratic People's Republic of"@en.
+
+edintkoscountry:kr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "kor"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Korea, Republic of"@en.
+
+edintkoscountry:kw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "kwt"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Kuwait"@en.
+
+edintkoscountry:kg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "kgz"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Kyrgyzstan"@en.
+
+edintkoscountry:la
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "la"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lao"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Lao People's Democratic Republic"@en.
+
+edintkoscountry:lv
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lv"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lva"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Latvia"@en.
+
+edintkoscountry:lb
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lb"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lbn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Lebanon"@en.
+
+edintkoscountry:ls
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ls"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lso"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Lesotho"@en.
+
+edintkoscountry:lr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lbr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Liberia"@en.
+
+edintkoscountry:ly
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ly"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lby"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Libyan Arab Jamahiriya"@en.
+
+edintkoscountry:li
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "li"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lie"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Liechtenstein"@en.
+
+edintkoscountry:lt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ltu"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Lithuania"@en.
+
+edintkoscountry:lu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lux"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Luxembourg"@en.
+
+edintkoscountry:mo
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mo"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mac"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Macao"@en.
+
+edintkoscountry:mk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mkd"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Macedonia, the former Yugoslav Republic of"@en.
+
+edintkoscountry:mg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mdg"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Madagascar"@en.
+
+edintkoscountry:mw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mwi"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Malawi"@en.
+
+edintkoscountry:my
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "my"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mys"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Malaysia"@en.
+
+edintkoscountry:mv
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mv"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mdv"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Maldives"@en.
+
+edintkoscountry:ml
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ml"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mli"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mali"@en.
+
+edintkoscountry:mt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mlt"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Malta"@en.
+
+edintkoscountry:mh
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mh"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mhl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Marshall Islands"@en.
+
+edintkoscountry:mq
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mq"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mtq"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Martinique"@en.
+
+edintkoscountry:mr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mrt"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mauritania"@en.
+
+edintkoscountry:mu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mus"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mauritius"@en.
+
+edintkoscountry:yt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "yt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "myt"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mayotte"@en.
+
+edintkoscountry:mx
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mx"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mex"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mexico"@en.
+
+edintkoscountry:fm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "fm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "fsm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Micronesia, Federated States of"@en.
+
+edintkoscountry:md
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "md"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mda"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Moldova, Republic of"@en.
+
+edintkoscountry:mc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mco"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Monaco"@en.
+
+edintkoscountry:mn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mng"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mongolia"@en.
+
+edintkoscountry:me
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "me"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mne"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Montenegro"@en.
+
+edintkoscountry:ms
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ms"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "msr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Montserrat"@en.
+
+edintkoscountry:ma
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ma"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mar"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Morocco"@en.
+
+edintkoscountry:mz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "moz"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Mozambique"@en.
+
+edintkoscountry:mm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mmr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Myanmar"@en.
+
+edintkoscountry:na
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "na"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nam"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Namibia"@en.
+
+edintkoscountry:nr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "nr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nru"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Nauru"@en.
+
+edintkoscountry:np
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "np"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "npl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Nepal"@en.
+
+edintkoscountry:nl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "nl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nld"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Netherlands"@en.
+
+edintkoscountry:an
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "an"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ant"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Netherlands Antilles"@en.
+
+edintkoscountry:nc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "nc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ncl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "New Caledonia"@en.
+
+edintkoscountry:nz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "nz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nzl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "New Zealand"@en.
+
+edintkoscountry:ni
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ni"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nic"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Nicaragua"@en.
+
+edintkoscountry:ne
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ne"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ner"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Niger"@en.
+
+edintkoscountry:ng
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ng"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nga"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Nigeria"@en.
+
+edintkoscountry:nu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "nu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "niu"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Niue"@en.
+
+edintkoscountry:nf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "nf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nfk"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Norfolk Island"@en.
+
+edintkoscountry:mp
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mp"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "mnp"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Northern Mariana Islands"@en.
+
+edintkoscountry:no
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "no"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "nor"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Norway"@en.
+
+edintkoscountry:om
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "om"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "omn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Oman"@en.
+
+edintkoscountry:pk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pak"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Pakistan"@en.
+
+edintkoscountry:pw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "plw"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Palau"@en.
+
+edintkoscountry:ps
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ps"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pse"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Palestinian Territory, Occupied"@en.
+
+edintkoscountry:pa
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pa"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pan"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Panama"@en.
+
+edintkoscountry:pg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "png"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Papua New Guinea"@en.
+
+edintkoscountry:py
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "py"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pry"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Paraguay"@en.
+
+edintkoscountry:pe
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pe"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "per"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Peru"@en.
+
+edintkoscountry:ph
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ph"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "phl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Philippines"@en.
+
+edintkoscountry:pn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pcn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Pitcairn"@en.
+
+edintkoscountry:pl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pol"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Poland"@en.
+
+edintkoscountry:pt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "prt"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Portugal"@en.
+
+edintkoscountry:pr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "pri"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Puerto Rico"@en.
+
+edintkoscountry:qa
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "qa"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "qat"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Qatar"@en.
+
+edintkoscountry:re
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "re"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "reu"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Reunion ﻿ Réunion"@en.
+
+edintkoscountry:ro
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ro"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "rou"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Romania"@en.
+
+edintkoscountry:ru
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ru"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "rus"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Russian Federation"@en.
+
+edintkoscountry:rw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "rw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "rwa"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Rwanda"@en.
+
+edintkoscountry:bl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "bl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "blm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Barthélemy"@en.
+
+edintkoscountry:sh
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sh"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "shn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Helena"@en.
+
+edintkoscountry:kn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "kn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "kna"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Kitts and Nevis"@en.
+
+edintkoscountry:lc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lca"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Lucia"@en.
+
+edintkoscountry:mf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "mf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "maf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Martin (French part)"@en.
+
+edintkoscountry:pm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "pm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "spm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Pierre and Miquelon"@en.
+
+edintkoscountry:vc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "vc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "vct"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saint Vincent and the Grenadines"@en.
+
+edintkoscountry:ws
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ws"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "wsm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Samoa"@en.
+
+edintkoscountry:sm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "smr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "San Marino"@en.
+
+edintkoscountry:st
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "st"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "stp"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Sao Tome and Principe"@en.
+
+edintkoscountry:sa
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sa"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sau"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Saudi Arabia"@en.
+
+edintkoscountry:sn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sen"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Senegal"@en.
+
+edintkoscountry:rs
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "rs"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "srb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Serbia"@en.
+
+edintkoscountry:sc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "syc"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Seychelles"@en.
+
+edintkoscountry:sl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sle"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Sierra Leone"@en.
+
+edintkoscountry:sg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sgp"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Singapore"@en.
+
+edintkoscountry:sk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "svk"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Slovakia"@en.
+
+edintkoscountry:si
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "si"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "svn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Slovenia"@en.
+
+edintkoscountry:sb
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sb"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "slb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Solomon Islands"@en.
+
+edintkoscountry:so
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "so"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "som"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Somalia"@en.
+
+edintkoscountry:za
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "za"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "zaf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "South Africa"@en.
+
+edintkoscountry:gs
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gs"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sgs"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "South Georgia and the South Sandwich Islands"@en.
+
+edintkoscountry:es
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "es"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "esp"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Spain"@en.
+
+edintkoscountry:lk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "lk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "lka"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Sri Lanka"@en.
+
+edintkoscountry:sd
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sd"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sdn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Sudan"@en.
+
+edintkoscountry:sr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sur"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Suriname"@en.
+
+edintkoscountry:sj
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sj"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "sjm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Svalbard and Jan Mayen"@en.
+
+edintkoscountry:sz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "swz"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Swaziland"@en.
+
+edintkoscountry:se
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "se"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "swe"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Sweden"@en.
+
+edintkoscountry:ch
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ch"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "che"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Switzerland"@en.
+
+edintkoscountry:sy
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "sy"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "syr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Syrian Arab Republic"@en.
+
+edintkoscountry:tw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "twn"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Taiwan, Province of China"@en.
+
+edintkoscountry:tj
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tj"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tjk"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Tajikistan"@en.
+
+edintkoscountry:tz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tza"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Tanzania, United Republic of"@en.
+
+edintkoscountry:th
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "th"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tha"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Thailand"@en.
+
+edintkoscountry:tl
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tl"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tls"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Timor-Leste"@en.
+
+edintkoscountry:tg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tgo"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Togo"@en.
+
+edintkoscountry:tk
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tk"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tkl"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Tokelau"@en.
+
+edintkoscountry:to
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "to"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ton"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Tonga"@en.
+
+edintkoscountry:tt
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tt"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tto"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Trinidad and Tobago"@en.
+
+edintkoscountry:tn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tun"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Tunisia"@en.
+
+edintkoscountry:tr
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tr"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tur"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Turkey"@en.
+
+edintkoscountry:tm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tkm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Turkmenistan"@en.
+
+edintkoscountry:tc
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tc"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tca"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Turks and Caicos Islands"@en.
+
+edintkoscountry:tv
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "tv"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "tuv"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Tuvalu"@en.
+
+edintkoscountry:ug
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ug"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "uga"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Uganda"@en.
+
+edintkoscountry:ua
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ua"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ukr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Ukraine"@en.
+
+edintkoscountry:ae
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ae"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "are"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "United Arab Emirates"@en.
+
+edintkoscountry:gb
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "gb"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "gbr"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "United Kingdom"@en.
+
+edintkoscountry:us
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "us"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "usa"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "United States"@en.
+
+edintkoscountry:um
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "um"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "umi"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "United States Minor Outlying Islands"@en.
+
+edintkoscountry:uy
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "uy"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ury"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Uruguay"@en.
+
+edintkoscountry:uz
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "uz"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "uzb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Uzbekistan"@en.
+
+edintkoscountry:vu
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "vu"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "vut"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Vanuatu"@en.
+
+edintkoscountry:ve
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ve"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "ven"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Venezuela, Bolivarian Republic of"@en.
+
+edintkoscountry:vn
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "vn"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "vnm"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Viet Nam"@en.
+
+edintkoscountry:vg
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "vg"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "vgb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Virgin Islands, British"@en.
+
+edintkoscountry:vi
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "vi"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "vir"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Virgin Islands, U.S."@en.
+
+edintkoscountry:wf
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "wf"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "wlf"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Wallis and Futuna"@en.
+
+edintkoscountry:eh
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "eh"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "esh"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Western Sahara"@en.
+
+edintkoscountry:ye
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "ye"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "yem"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Yemen"@en.
+
+edintkoscountry:zm
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "zm"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "zmb"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Zambia"@en.
+
+edintkoscountry:zw
+	a skos:Concept;
+	skos:inScheme edintkos:Country;
+	skos:notation "zw"^^edintkoscountry:iso3166-1-alpha-2DT ;
+	skos:notation "zwe"^^edintkoscountry:iso3166-1-alpha-3DT ;
+	skos:prefLabel "Zimbabwe"@en.
