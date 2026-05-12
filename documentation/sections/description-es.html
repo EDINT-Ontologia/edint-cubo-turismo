@@ -40,7 +40,7 @@ edinttur:obsTourism-001 a qb:Observation ;
     # --- Dimensiones ---
     edintdim:refAdminRegion      esadm:Murcia ;
     edintdim:refPeriod           edintrec:instanteobs-001;
-    edintdim:countryOfOrigin     edintkos:UnitedKingdom ;
+    edintdim:countryOfResidence     edintkos:UnitedKingdom ;
 
     # --- Medidas ---
     edintdim:averageStay              "4.7"^^xsd:decimal ;
@@ -58,6 +58,6 @@ edintrec:instanteobs-001 a time:Instant;
         matchBrackets: true
     });
 </script>
-En el ejemplo anterior se muestra un ejemplo de una observación perteneciente al cubo de datos estadístico en RDF. 
+En el ejemplo anterior se muestra una porción del grafo de conocimiento en RDF para una observación perteneciente al cubo de datos estadístico de turismo. Las dimensiones son la región administrativa de Murcia, el periodo de referencia, agosto de 2025 y el país de residencia, el Reino Unido. Las medidas son la estancia promedio de un turista, el número total de turistas, el número total de viajeros que puede incluir a viajeros que no son turistas y el número total de pernoctas. 
 </span>
 
