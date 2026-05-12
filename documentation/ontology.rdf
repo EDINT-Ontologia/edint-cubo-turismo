@@ -10,6 +10,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:vocab-data-cube="https://www.w3.org/TR/vocab-data-cube/">
     <owl:Ontology rdf:about="https://www.w3.org/TR/vocab-data-cube/">
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo/0.1.0"/>
         <owl:imports rdf:resource="https://www.w3.org/TR/vocab-data-cube/"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-17</terms:created>
         <terms:creator>Daniel Doña</terms:creator>
@@ -578,9 +579,12 @@
         <rdfs:comment xml:lang="es">Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos.</rdfs:comment>
         <rdfs:label xml:lang="es">DSD integrado de turismo</rdfs:label>
         <rdfs:label xml:lang="en">Integrated tourism DSD</rdfs:label>
+        <component rdf:nodeID="genid5"/>
+        <component rdf:nodeID="genid6"/>
+        <component rdf:nodeID="genid7"/>
         <component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"/>
+                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"/>
             </rdf:Description>
         </component>
         <component>
@@ -588,21 +592,6 @@
                 <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"/>
             </rdf:Description>
         </component>
-        <component>
-            <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"/>
-            </rdf:Description>
-        </component>
-        <component rdf:nodeID="genid8"/>
-        <component rdf:nodeID="genid9"/>
-        <component>
-            <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"/>
-            </rdf:Description>
-        </component>
-        <component rdf:nodeID="genid11"/>
-        <component rdf:nodeID="genid12"/>
-        <component rdf:nodeID="genid13"/>
         <component>
             <rdf:Description>
                 <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"/>
@@ -620,7 +609,19 @@
         </component>
         <component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"/>
+                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"/>
+            </rdf:Description>
+        </component>
+        <component>
+            <rdf:Description>
+                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"/>
+            </rdf:Description>
+        </component>
+        <component rdf:nodeID="genid15"/>
+        <component rdf:nodeID="genid16"/>
+        <component>
+            <rdf:Description>
+                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"/>
             </rdf:Description>
         </component>
         <component>
@@ -629,25 +630,25 @@
             </rdf:Description>
         </component>
     </owl:NamedIndividual>
-    <rdf:Description rdf:nodeID="genid8">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</order>
+    <rdf:Description rdf:nodeID="genid5">
+        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"/>
+        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</order>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid9">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</order>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid11">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</order>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid12">
+    <rdf:Description rdf:nodeID="genid6">
         <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"/>
         <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</order>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid13">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</order>
+    <rdf:Description rdf:nodeID="genid7">
+        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"/>
+        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</order>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid15">
+        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType"/>
+        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</order>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid16">
+        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"/>
+        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</order>
     </rdf:Description>
     
 
@@ -746,8 +747,8 @@
         <rdfs:label xml:lang="en">intensity per resident</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists">
-        <rdfs:comment xml:lang="es">Número total de turistas que entran, salen o internos.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Total number of inbound, outbound or domestic tourists.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total number national, international, and interprovincial tourists that pass through a tourist site.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Total number of national, international and interprovincial tourists passing through a tourist site.</rdfs:comment>
         <rdfs:label xml:lang="en">number of tourists</rdfs:label>
         <rdfs:label xml:lang="es">número de turistas</rdfs:label>
     </rdf:Description>
@@ -764,8 +765,8 @@
         <rdfs:label xml:lang="es">plazas ocupadas</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays">
-        <rdfs:comment xml:lang="es">Número total de pernoctas.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Total number of overnight stays.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Número total de pernoctas por persona.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total number of overnight stays per person.</rdfs:comment>
         <rdfs:label xml:lang="en">overnight stays</rdfs:label>
         <rdfs:label xml:lang="es">pernoctaciones</rdfs:label>
     </rdf:Description>

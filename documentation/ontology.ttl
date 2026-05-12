@@ -7,6 +7,7 @@
 @base <https://www.w3.org/TR/vocab-data-cube/> .
 
 <https://www.w3.org/TR/vocab-data-cube/> rdf:type owl:Ontology ;
+                                          owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo/0.1.0> ;
                                           owl:imports <https://www.w3.org/TR/vocab-data-cube/> ;
                                           <http://purl.org/dc/terms/created> "2026-04-17"^^xsd:date ;
                                           <http://purl.org/dc/terms/creator> "Daniel Doña" ,
@@ -326,44 +327,44 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                 rdfs:comment "Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos."@es ;
                                                                                 rdfs:label "DSD integrado de turismo"@es ,
                                                                                            "Integrated tourism DSD"@en ;
-                                                                                :component [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces>
+                                                                                :component _:genid5 ,
+                                                                                           _:genid6 ,
+                                                                                           _:genid7 ,
+                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists>
                                                                                            ] ,
                                                                                            [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation>
                                                                                            ] ,
-                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident>
-                                                                                           ] ,
-                                                                                           _:genid8 ,
-                                                                                           _:genid9 ,
-                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay>
-                                                                                           ] ,
-                                                                                           _:genid11 ,
-                                                                                           _:genid12 ,
-                                                                                           _:genid13 ,
                                                                                            [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers>
                                                                                            ] ,
                                                                                            [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces>
                                                                                            ] ,
                                                                                            [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays>
                                                                                            ] ,
-                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists>
+                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces>
+                                                                                           ] ,
+                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident>
+                                                                                           ] ,
+                                                                                           _:genid15 ,
+                                                                                           _:genid16 ,
+                                                                                           [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay>
                                                                                            ] ,
                                                                                            [ :measure <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces>
                                                                                            ] .
 
-_:genid8 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> ;
-          :order 4 .
+_:genid5 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> ;
+          :order 1 .
 
-_:genid9 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> ;
+_:genid6 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> ;
+          :order 2 .
+
+_:genid7 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> ;
           :order 3 .
 
-_:genid11 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> ;
+_:genid15 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> ;
+           :order 4 .
+
+_:genid16 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> ;
            :order 5 .
-
-_:genid12 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> ;
-           :order 2 .
-
-_:genid13 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> ;
-           :order 1 .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/edint/TourismFlowType
@@ -446,8 +447,8 @@ _:genid13 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#ref
                                                                                        "intensity per resident"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> rdfs:comment "Número total de turistas que entran, salen o internos."@es ,
-                                                                                "Total number of inbound, outbound or domestic tourists."@en ;
+<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> rdfs:comment "Total number national, international, and interprovincial tourists that pass through a tourist site."@en ,
+                                                                                "Total number of national, international and interprovincial tourists passing through a tourist site."@es ;
                                                                    rdfs:label "number of tourists"@en ,
                                                                               "número de turistas"@es .
 
@@ -464,8 +465,8 @@ _:genid13 :dimension <http://vocab.linkeddata.es/datosabiertos/def/dimension#ref
                                                                                  "plazas ocupadas"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> rdfs:comment "Número total de pernoctas."@es ,
-                                                                                   "Total number of overnight stays."@en ;
+<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> rdfs:comment "Número total de pernoctas por persona."@es ,
+                                                                                   "Total number of overnight stays per person."@en ;
                                                                       rdfs:label "overnight stays"@en ,
                                                                                  "pernoctaciones"@es .
 
