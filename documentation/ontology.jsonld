@@ -13,77 +13,30 @@
 }, {
   "@id" : "_:genid10",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"
-  } ]
-}, {
-  "@id" : "_:genid11",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "5"
-  } ]
-}, {
-  "@id" : "_:genid12",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "2"
-  } ]
-}, {
-  "@id" : "_:genid13",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "1"
-  } ]
-}, {
-  "@id" : "_:genid14",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"
   } ]
 }, {
-  "@id" : "_:genid15",
+  "@id" : "_:genid11",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"
   } ]
 }, {
-  "@id" : "_:genid16",
+  "@id" : "_:genid12",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
   } ]
 }, {
-  "@id" : "_:genid17",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"
-  } ]
-}, {
-  "@id" : "_:genid18",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
-  } ]
-}, {
-  "@id" : "_:genid5",
+  "@id" : "_:genid13",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"
   } ]
 }, {
-  "@id" : "_:genid6",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"
-  } ]
-}, {
-  "@id" : "_:genid7",
+  "@id" : "_:genid14",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"
   } ]
 }, {
-  "@id" : "_:genid8",
+  "@id" : "_:genid15",
   "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType"
   } ],
@@ -92,13 +45,60 @@
     "@value" : "4"
   } ]
 }, {
-  "@id" : "_:genid9",
+  "@id" : "_:genid16",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid7",
   "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"
   } ],
   "https://www.w3.org/TR/vocab-data-cube/order" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "3"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/created",
@@ -398,11 +398,11 @@
     "@id" : "https://www.w3.org/TR/vocab-data-cube/MeasureProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Número total de turistas que entran, salen o internos."
-  }, {
     "@language" : "en",
-    "@value" : "Total number of inbound, outbound or domestic tourists."
+    "@value" : "Total number national, international, and interprovincial tourists that pass through a tourist site."
+  }, {
+    "@language" : "es",
+    "@value" : "Total number of national, international and interprovincial tourists passing through a tourist site."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -477,10 +477,10 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "Número total de pernoctas."
+    "@value" : "Número total de pernoctas por persona."
   }, {
     "@language" : "en",
-    "@value" : "Total number of overnight stays."
+    "@value" : "Total number of overnight stays per person."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -669,6 +669,9 @@
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "https://www.w3.org/TR/vocab-data-cube/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo/0.1.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.1.0"

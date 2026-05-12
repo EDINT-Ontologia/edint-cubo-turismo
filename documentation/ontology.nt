@@ -1,4 +1,5 @@
 <https://www.w3.org/TR/vocab-data-cube/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://www.w3.org/TR/vocab-data-cube/> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo/0.1.0> .
 <https://www.w3.org/TR/vocab-data-cube/> <http://www.w3.org/2002/07/owl#imports> <https://www.w3.org/TR/vocab-data-cube/> .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/created> "2026-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/creator> "Daniel Doña" .
@@ -90,7 +91,6 @@
 # http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence
 <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType
 <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -116,7 +116,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> .
 <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#Interval> .
-<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # 
 # 
@@ -208,11 +207,13 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio> <http://www.w3.org/2000/01/rdf-schema#label> "Municipio"@es .
 # 
 # http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/2004/02/skos/core#ConceptScheme
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # https://www.w3.org/TR/vocab-data-cube/CodedProperty
 <https://www.w3.org/TR/vocab-data-cube/CodedProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -300,36 +301,36 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <http://www.w3.org/2000/01/rdf-schema#label> "DSD integrado de turismo"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <http://www.w3.org/2000/01/rdf-schema#label> "Integrated tourism DSD"@en .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid5 .
-_:genid5 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> .
+_:genid5 <https://www.w3.org/TR/vocab-data-cube/order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid5 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid6 .
-_:genid6 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> .
+_:genid6 <https://www.w3.org/TR/vocab-data-cube/order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid6 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid7 .
-_:genid7 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> .
+_:genid7 <https://www.w3.org/TR/vocab-data-cube/order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid7 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid8 .
-_:genid8 <https://www.w3.org/TR/vocab-data-cube/order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid8 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> .
+_:genid8 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid9 .
-_:genid9 <https://www.w3.org/TR/vocab-data-cube/order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid9 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> .
+_:genid9 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid10 .
-_:genid10 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> .
+_:genid10 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid11 .
-_:genid11 <https://www.w3.org/TR/vocab-data-cube/order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid11 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> .
+_:genid11 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid12 .
-_:genid12 <https://www.w3.org/TR/vocab-data-cube/order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid12 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> .
+_:genid12 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid13 .
-_:genid13 <https://www.w3.org/TR/vocab-data-cube/order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid13 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> .
+_:genid13 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid14 .
-_:genid14 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> .
+_:genid14 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid15 .
-_:genid15 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> .
+_:genid15 <https://www.w3.org/TR/vocab-data-cube/order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid15 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid16 .
-_:genid16 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> .
+_:genid16 <https://www.w3.org/TR/vocab-data-cube/order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid16 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid17 .
-_:genid17 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> .
+_:genid17 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid18 .
 _:genid18 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> .
 # 
@@ -406,8 +407,8 @@ _:genid18 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkedda
 <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> <http://www.w3.org/2000/01/rdf-schema#label> "intensidad por residente"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> <http://www.w3.org/2000/01/rdf-schema#label> "intensity per resident"@en .
 # 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> <http://www.w3.org/2000/01/rdf-schema#comment> "Número total de turistas que entran, salen o internos."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of inbound, outbound or domestic tourists."@en .
+<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number national, international, and interprovincial tourists that pass through a tourist site."@en .
+<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of national, international and interprovincial tourists passing through a tourist site."@es .
 <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> <http://www.w3.org/2000/01/rdf-schema#label> "number of tourists"@en .
 <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> <http://www.w3.org/2000/01/rdf-schema#label> "número de turistas"@es .
 # 
@@ -421,8 +422,8 @@ _:genid18 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkedda
 <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> <http://www.w3.org/2000/01/rdf-schema#label> "occupied places"@en .
 <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> <http://www.w3.org/2000/01/rdf-schema#label> "plazas ocupadas"@es .
 # 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> <http://www.w3.org/2000/01/rdf-schema#comment> "Número total de pernoctas."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of overnight stays."@en .
+<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> <http://www.w3.org/2000/01/rdf-schema#comment> "Número total de pernoctas por persona."@es .
+<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of overnight stays per person."@en .
 <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> <http://www.w3.org/2000/01/rdf-schema#label> "overnight stays"@en .
 <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> <http://www.w3.org/2000/01/rdf-schema#label> "pernoctaciones"@es .
 # 
