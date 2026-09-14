@@ -1,0 +1,45 @@
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dc:     <http://purl.org/dc/terms></http:> .
+@prefix vann:   <http://purl.org/vocab/vann></http:> .
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org></http:> .
+@prefix time:   <http://www.w3.org/2006/time#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-measure:   <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix edintdim:      <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
+@prefix esadm:         <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+@prefix edintkos:      <http://vocab.linkeddata.es/datosabiertos/kos/edint></http:> .
+@prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
+@prefix edintgast: <http://vocab.linkeddata.es/datosabiertos/def/comercio/cubo-gasto-comercial></http:> .
+@prefix edinttemp: <http://vocab.linkeddata.es/datosabiertos/def/actividad-economica/cubo-empleo#> .
+@prefix edinttur: <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#> .
+@prefix edinttemp: <http://vocab.linkeddata.es/datosabiertos/def/actividad-economica/cubo-empleo#> .
+@prefix edintrec: <http://vocab.linkeddata.es/datosabiertos/recurso></http:>.
+@prefix time:      <http://www.w3.org/2006/time#>.
+
+
+edinttur:dsTourism a qb:DataSet ;
+    rdfs:label "Dataset de turismo integrado"@es ;
+    qb:structure edinttur:DSD_Tourism .
+
+edinttur:obsTourism-001 a qb:Observation ;
+    qb:dataSet edinttur:dsTourism ;
+
+    # --- Dimensiones ---
+    edintdim:refAdminRegion      esadm:Murcia ;
+    edintdim:refPeriod           edintrec:instanteobs-001;
+    edintdim:countryOfResidence     edintkos:UnitedKingdom ;
+
+    # --- Medidas ---
+    edintdim:averageStay              "4.7"^^xsd:decimal ;
+    edintdim:numTourists              "15420"^^xsd:nonNegativeInteger ;
+    edintmeasure:numTravelers         "3280"^^xsd:nonNegativeInteger ;
+    edintmeasure:overnightStays       "13312"^^xsd:nonNegativeInteger .
+
+# --- Año y mes de la observación ---
+edintrec:instanteobs-001 a time:Instant;
+    time:inXSDgYearMonth          "2025-08"^^xsd:gYearMonth .
