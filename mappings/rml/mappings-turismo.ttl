@@ -9,13 +9,13 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix edintgast: <http://vocab.linkeddata.es/datosabiertos/def/comercio/cubo-gasto-comercial/> .
+@prefix edintgast: <https://edint.es/def/cubo-gasto-comercial/> .
 @prefix edintdimension: <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
 @prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
-@prefix edinttemp: <http://vocab.linkeddata.es/datosabiertos/def/actividad-economica/cubo-empleo#> .
+@prefix edintemp: <https://edint.es/def/cubo-empleo#> .
 @prefix edintdimension: <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
 @prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
-@prefix edinttur: <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#> .
+@prefix edinttur: <https://edint.es/def/cubo-turismo#> .
 
 edinttur:mappings_tourism rdf:type rr:TriplesMap ;
     rml:logicalSource [ rml:referenceFormulation ql:CSV ;
@@ -50,4 +50,4 @@ edinttur:mappings_tourism rdf:type rr:TriplesMap ;
         [ rr:objectMap [ rml:reference "Número de Estancias¡" ] ;            
             rr:predicate edintmeasure:overnightStays ] ;                                                                                             
     rr:subjectMap [ rr:class qb:Observation ;
-            rr:template "http://vocab.linkeddata.es/datosabiertos/def/actividad-economica/cubo-empleo/o{Índice}" ] .
+            rr:template "https://edint.es/def/cubo-empleo/o{Índice}" ] .
