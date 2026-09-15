@@ -11,7 +11,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
 @prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
-@prefix edinttur: <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#> .
+@prefix edinttur: <https://edint.es/def/cubo-turismo#> .
 @prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
 @prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix edintdimension: <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
@@ -19,7 +19,7 @@
 @base <https://www.w3.org/TR/vocab-data-cube/> .
 
 <https://www.w3.org/TR/vocab-data-cube/> rdf:type owl:Ontology ;
-                                          owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo/0.1.0> ;
+                                          owl:versionIRI <https://edint.es/def/cubo-turismo/0.1.0> ;
                                           owl:imports <https://www.w3.org/TR/vocab-data-cube/> ;
                                           dc:created "2026-04-17"^^xsd:date ;
                                           dc:creator "Daniel Doña" ,
@@ -325,7 +325,7 @@ edintmeasure:overnightStays rdf:type owl:NamedIndividual ,
                                      qb:MeasureProperty .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism
+###  https://edint.es/def/cubo-turismo#DSD_Tourism
 edinttur:DSD_Tourism rdf:type owl:NamedIndividual ,
                               qb:DataStructureDefinition ;
                      rdfs:comment "Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos."@es ;

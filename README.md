@@ -40,7 +40,7 @@ Y define las siguientes medidas estadísticas:
 
 # Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo del cubo de datos es: edintgast y se encuentra publicada en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#]()**
+El prefijo del cubo de datos es: edinttur y se encuentra publicada en el espacio de nombres: **[https://edint.es/def/cubo-turismo#]()**
 
 Las dimensiones se representan con el prefijo **edintdimension** y se encuentra en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/dimension#](http://vocab.linkeddata.es/datosabiertos/def/dimension#)**
 
