@@ -10,7 +10,7 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
-@prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
+@prefix edintkos: <https://edint.es/kos/> .
 @prefix edinttur: <https://edint.es/def/cubo-turismo#> .
 @prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
 @prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
@@ -366,14 +366,14 @@ edinttur:DSD_Tourism rdf:type owl:NamedIndividual ,
                                   ] .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/kos/edint/TourismFlowType
+###  https://edint.es/kos/TourismFlowType
 edintkos:TourismFlowType rdf:type owl:NamedIndividual ,
                                   skos:ConceptScheme ;
                          rdfs:label "Tipo de flujo turístico"@es ,
                                     "Tourism flow type"@en .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/kos/edint/country
+###  https://edint.es/kos/country
 edintkos:country rdf:type owl:NamedIndividual ,
                           skos:ConceptScheme ;
                  rdfs:label "Country"@en ,
