@@ -16,6 +16,9 @@
 @prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix edintdimension: <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
 @prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @base <https://www.w3.org/TR/vocab-data-cube/> .
 
 <https://www.w3.org/TR/vocab-data-cube/> rdf:type owl:Ontology ;
@@ -35,7 +38,14 @@
                                                    "Tourism Data Cube Ontology"@en ;
                                           vann:preferredNamespacePrefix "edinttur" ;
                                           vann:preferredNamespaceUri edinttur: ;
-                                          owl:versionInfo "0.1.0" .
+                                          owl:versionInfo "0.1.0"  ;
+                                          owl:priorVersion <https://github.com/EDINT-Ontologia/edint-cubo-turismo/releases/tag/v0.2.0> ;
+                                          dcterms:publisher <https://www.femp.es/> ;
+                                          dcterms:bibliographicCitation """Vocabulario para la representación del cubo de indicadores de turismo dentro del proyecto EDINT. EDINT. Revision: v0.2.1."""@es ;
+                                          schema:creativeWorkStatus "Ontology Specification"@en ;
+                                          dcterms:abstract
+        """La ontología de Cubo de Datos Turísticos describe la estructura que contiene las dimensiones y medidas que pueden ser utilizadas para generar cubos de datos turísticos. Algunos ejemplos de cubos son los de ocupación turística, flujo turístico y los de indicadores que permiten evaluar aspectos como ocupación promedio, crecimiento en número de plazas,  crecimiento de flujo turístico, etc. Para desarrollar el cubo de datos turísticos se reutiliza el vocabulario W3C Data Cube."""@es,
+        """The Tourism Data Cube ontology describes the structure containing the dimensions and measures that can be used to generate tourism data cubes. Examples of such cubes include those for tourist occupancy, tourist flow, and indicators that allow for the evaluation of aspects like average occupancy, growth in the number of accommodations, growth in tourist flow, etc. The W3C Data Cube vocabulary was reused to develop the tourism data cube."""@en  .
 
 #################################################################
 #    Annotation properties
