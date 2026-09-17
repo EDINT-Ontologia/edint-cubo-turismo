@@ -35,8 +35,8 @@ edinttur:obsTourism-001 a qb:Observation ;
     edintdim:countryOfResidence     edintkos:UnitedKingdom ;
 
     # --- Medidas ---
-    edintdim:averageStay              "4.7"^^xsd:decimal ;
-    edintdim:numTourists              "15420"^^xsd:nonNegativeInteger ;
+    edintmeasure:averageStay              "4.7"^^xsd:decimal ;
+    edintmeasure:numTourists              "15420"^^xsd:nonNegativeInteger ;
     edintmeasure:numTravelers         "3280"^^xsd:nonNegativeInteger ;
     edintmeasure:overnightStays       "13312"^^xsd:nonNegativeInteger .
 
