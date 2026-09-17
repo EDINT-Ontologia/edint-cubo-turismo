@@ -493,3 +493,25 @@ edintmeasure:overnightStays rdfs:comment "Total number of overnight stays per pe
     widoco:turtleSerialization "ontology.ttl" ;
     widoco:ntSerialization "ontology.nt" ;
     widoco:jsonldSerialization "ontology.jsonld" .
+# -- Etiquetas de vocabularios (vocabulario Widoco) --
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <http://purl.org/linked-data/sdmx/2009/dimension> ;
+    rdfs:label "Dimensiones SDMX"@es , "SDMX Dimensions"@en ] .
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <http://purl.org/linked-data/sdmx/2009/measure> ;
+    rdfs:label "Medidas SDMX"@es , "SDMX Measures"@en ] .
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <http://vocab.linkeddata.es/datosabiertos/def/dimension> ;
+    rdfs:label "Dimensiones EDINT"@es , "EDINT Dimensions"@en ] .
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <http://vocab.linkeddata.es/datosabiertos/def/measure> ;
+    rdfs:label "Medidas EDINT"@es , "EDINT Measures"@en ] .
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> ;
+    rdfs:label "Territorio (esadm)"@es , "Territory (esadm)"@en ] .
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <http://www.w3.org/2006/time> ;
+    rdfs:label "OWL-Time"@es , "OWL-Time"@en ] .
+<https://edint.es/def/cubo-turismo> widoco:vocabularyLabel [
+    widoco:vocabularyIRI <https://www.w3.org/TR/vocab-data-cube/> ;
+    rdfs:label "W3C Data Cube"@es , "W3C Data Cube"@en ] .
