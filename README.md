@@ -43,11 +43,11 @@ Y define las siguientes medidas estadísticas:
 
 # Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo del cubo de datos es: edinttur y se encuentra publicada en el espacio de nombres: **[https://edint.es/def/cubo-turismo#]()**
+El prefijo de este cubo de datos es `edinttur` y se publica bajo el espacio de nombres https://edint.es/def/cubo-turismo#
 
-Las dimensiones se representan con el prefijo **edintdimension** y se encuentra en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/dimension#](http://vocab.linkeddata.es/datosabiertos/def/dimension#)**
+Las dimensiones se representan con el prefijo `edintdimension` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/dimension#
 
-Las medidas se representan con el prefijo **edintmeasure** y se encuentre en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/measure#](http://vocab.linkeddata.es/datosabiertos/def/measure#)**
+Las medidas se representan con el prefijo `edintmeasure` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/measure#
 
 # Modelo conceptual (Data Cube conceptualization)
 
