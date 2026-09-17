@@ -1,5 +1,8 @@
 # Cubo de datos EDINT de Turismo (EDINT Tourism Data Cube)
 
+![Prefijo](https://img.shields.io/badge/prefijo-edinttur-informational)
+[![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
+
 Este recurso define una **ontología de cubos de datos turísticos** para representar de forma estructurada distintos conjuntos de datos relacionados con el turismo, incluyendo **ocupación turística**, **flujo turístico** e **indicadores turísticos**. El modelo se basa en el vocabulario **W3C RDF Data Cube** , lo que permite describir dimensiones, medidas y estructuras de datos de forma interoperable, reutilizable y preparada para su explotación en entornos semánticos.
 
 Este cubo de datos está siendo desarrollado en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es/)).
