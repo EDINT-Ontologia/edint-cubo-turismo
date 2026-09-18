@@ -1,5 +1,5 @@
 @prefix : <https://www.w3.org/TR/vocab-data-cube/> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix qb: <https://www.w3.org/TR/vocab-data-cube/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -16,8 +16,7 @@
 @prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix edintdimension: <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
 @prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix schema: <http://schema.org/> .
+@prefix schema: <https://schema.org/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @base <https://edint.es/def/cubo-turismo> .
@@ -28,17 +27,17 @@
                                           dcterms:created  "2026-04-17"^^xsd:date ;
                                           dcterms:issued   "2026-09-17"^^xsd:date ;
                                           dcterms:modified "2026-09-17"^^xsd:date ;
-                                          dc:creator                                                    [ foaf:name "Daniel Doña" ; schema:affiliation <https://oeg.fi.upm.es/> ],
+                                          dcterms:creator                                                    [ foaf:name "Daniel Doña" ; schema:affiliation <https://oeg.fi.upm.es/> ],
                                                    [ foaf:name "Diego Conde Herreros" ; schema:affiliation <https://oeg.fi.upm.es/> ],
                                                    [ foaf:name "Edna Ruckhaus" ; schema:affiliation <https://oeg.fi.upm.es/> ],
                                                    [ foaf:name "Lucía Sánchez" ; schema:affiliation <https://oeg.fi.upm.es/> ],
                                                    [ foaf:name "Oscar Corcho" ; schema:affiliation <https://oeg.fi.upm.es/> ],
                                                    [ foaf:name "Socorro Bernardos" ; schema:affiliation <https://oeg.fi.upm.es/> ] ;
-                                          dc:description "La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas."@es ,
+                                          dcterms:description "La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas."@es ,
                                                          "The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures."@en ;
-                                          dc:license <https://creativecommons.org/licenses/by/4.0/> ;
-                                          dc:title "Cubo de Datos EDINT de Turismo"@es  ;
-                                          dc:title "EDINT Tourism Data Cube"@en ;
+                                          dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                          dcterms:title "Cubo de Datos EDINT de Turismo"@es  ;
+                                          dcterms:title "EDINT Tourism Data Cube"@en ;
                                           rdfs:label "Cubo de Datos de Turismo"@es ;
                                           rdfs:label "Tourism Data Cube"@en ;
                                           vann:preferredNamespacePrefix "edinttur" ;
@@ -60,23 +59,23 @@
 #################################################################
 
 ###  http://purl.org/dc/terms/created
-dc:created rdf:type owl:AnnotationProperty .
+dcterms:created rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/creator
-dc:creator rdf:type owl:AnnotationProperty .
+dcterms:creator rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
-dc:description rdf:type owl:AnnotationProperty .
+dcterms:description rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/license
-dc:license rdf:type owl:AnnotationProperty .
+dcterms:license rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
-dc:title rdf:type owl:AnnotationProperty .
+dcterms:title rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
