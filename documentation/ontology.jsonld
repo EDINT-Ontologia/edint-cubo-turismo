@@ -1,13 +1,25 @@
 [ {
   "@id" : "_:genid1",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Daniel Doña"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid10",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SDMX Measures"
+  }, {
+    "@language" : "es",
+    "@value" : "Medidas SDMX"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://purl.org/linked-data/sdmx/2009/measure"
+  } ]
+}, {
+  "@id" : "_:genid11",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "EDINT Dimensions"
@@ -19,7 +31,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension"
   } ]
 }, {
-  "@id" : "_:genid11",
+  "@id" : "_:genid12",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Medidas EDINT"
@@ -31,7 +43,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure"
   } ]
 }, {
-  "@id" : "_:genid12",
+  "@id" : "_:genid13",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Territory (esadm)"
@@ -43,7 +55,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"
   } ]
 }, {
-  "@id" : "_:genid13",
+  "@id" : "_:genid14",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "OWL-Time"
@@ -53,18 +65,6 @@
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
     "@id" : "http://www.w3.org/2006/time"
-  } ]
-}, {
-  "@id" : "_:genid14",
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "W3C Data Cube"
-  }, {
-    "@language" : "en",
-    "@value" : "W3C Data Cube"
-  } ],
-  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "https://www.w3.org/TR/vocab-data-cube/"
   } ]
 }, {
   "@id" : "_:genid15",
@@ -80,103 +80,6 @@
   } ]
 }, {
   "@id" : "_:genid19",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
-  } ]
-}, {
-  "@id" : "_:genid2",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
-  "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Diego Conde Herreros"
-  } ]
-}, {
-  "@id" : "_:genid20",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"
-  } ]
-}, {
-  "@id" : "_:genid21",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"
-  } ]
-}, {
-  "@id" : "_:genid22",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"
-  } ]
-}, {
-  "@id" : "_:genid23",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"
-  } ]
-}, {
-  "@id" : "_:genid24",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
-  } ]
-}, {
-  "@id" : "_:genid25",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"
-  } ]
-}, {
-  "@id" : "_:genid26",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "3"
-  } ]
-}, {
-  "@id" : "_:genid27",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "2"
-  } ]
-}, {
-  "@id" : "_:genid28",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "1"
-  } ]
-}, {
-  "@id" : "_:genid29",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"
-  } ]
-}, {
-  "@id" : "_:genid3",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
-  "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Edna Ruckhaus"
-  } ]
-}, {
-  "@id" : "_:genid30",
-  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"
-  } ]
-}, {
-  "@id" : "_:genid31",
-  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"
-  } ],
-  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "5"
-  } ]
-}, {
-  "@id" : "_:genid32",
   "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType"
   } ],
@@ -185,42 +88,151 @@
     "@value" : "4"
   } ]
 }, {
-  "@id" : "_:genid4",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
+  "@id" : "_:genid2",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Diego Conde Herreros"
   } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "https://www.w3.org/TR/vocab-data-cube/dimension" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"
+  } ],
+  "https://www.w3.org/TR/vocab-data-cube/order" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Edna Ruckhaus"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"
+  } ]
+}, {
+  "@id" : "_:genid4",
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Lucía Sánchez"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid5",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Oscar Corcho"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid6",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Socorro Bernardos"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid7",
-  "http://schema.org/affiliation" : [ {
-    "@value" : "Federación Española de Municipios y Provincias"
-  } ],
   "http://xmlns.com/foaf/0.1/homepage" : [ {
     "@id" : "https://www.femp.es/"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "FEMP"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@value" : "Federación Española de Municipios y Provincias"
   } ]
 }, {
   "@id" : "_:genid8",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "W3C Data Cube"
+  }, {
+    "@language" : "en",
+    "@value" : "W3C Data Cube"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "https://www.w3.org/TR/vocab-data-cube/"
+  } ]
+}, {
+  "@id" : "_:genid9",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "SDMX Dimensions"
@@ -230,18 +242,6 @@
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
     "@id" : "http://purl.org/linked-data/sdmx/2009/dimension"
-  } ]
-}, {
-  "@id" : "_:genid9",
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "SDMX Measures"
-  }, {
-    "@language" : "es",
-    "@value" : "Medidas SDMX"
-  } ],
-  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "http://purl.org/linked-data/sdmx/2009/measure"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/abstract",
@@ -287,18 +287,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/affiliation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/codeRepository",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/creativeWorkStatus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/funding",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence",
@@ -796,16 +784,6 @@
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@id" : "https://edint.es/def/cubo-turismo#"
   } ],
-  "http://schema.org/codeRepository" : [ {
-    "@id" : "https://github.com/EDINT-Ontologia/edint-cubo-turismo"
-  } ],
-  "http://schema.org/creativeWorkStatus" : [ {
-    "@language" : "en",
-    "@value" : "Ontology Specification"
-  } ],
-  "http://schema.org/funding" : [ {
-    "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Cubo de Datos de Turismo"
@@ -824,6 +802,16 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.2.1"
+  } ],
+  "https://schema.org/codeRepository" : [ {
+    "@id" : "https://github.com/EDINT-Ontologia/edint-cubo-turismo"
+  } ],
+  "https://schema.org/creativeWorkStatus" : [ {
+    "@language" : "en",
+    "@value" : "Ontology Specification"
+  } ],
+  "https://schema.org/funding" : [ {
+    "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
   } ],
   "https://w3id.org/widoco/vocab#jsonldSerialization" : [ {
     "@value" : "ontology.jsonld"
@@ -929,6 +917,18 @@
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Ontology Engineering Group, UPM"
   } ]
+}, {
+  "@id" : "https://schema.org/affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/creativeWorkStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/funding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://w3id.org/widoco/vocab#jsonldSerialization",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]

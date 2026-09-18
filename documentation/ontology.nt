@@ -7,75 +7,75 @@
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Tourism Data Cube. EDINT. Revision: v0.2.1."@en .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/created> "2026-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid1 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
-_:genid1 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/creator> _:genid2 .
+_:genid2 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid2 <http://xmlns.com/foaf/0.1/name> "Diego Conde Herreros" .
-_:genid2 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/creator> _:genid3 .
+_:genid3 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid3 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
-_:genid3 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/creator> _:genid4 .
+_:genid4 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid4 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
-_:genid4 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/creator> _:genid5 .
+_:genid5 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid5 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
-_:genid5 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/creator> _:genid6 .
+_:genid6 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid6 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
-_:genid6 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/description> "La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas."@es .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/description> "The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures."@en .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/publisher> _:genid7 .
+_:genid7 <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 _:genid7 <http://xmlns.com/foaf/0.1/name> "FEMP" .
 _:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
-_:genid7 <http://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/title> "Cubo de Datos EDINT de Turismo"@es .
 <https://edint.es/def/cubo-turismo> <http://purl.org/dc/terms/title> "EDINT Tourism Data Cube"@en .
 <https://edint.es/def/cubo-turismo> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edinttur" .
 <https://edint.es/def/cubo-turismo> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/cubo-turismo#> .
-<https://edint.es/def/cubo-turismo> <http://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-cubo-turismo> .
-<https://edint.es/def/cubo-turismo> <http://schema.org/creativeWorkStatus> "Ontology Specification"@en .
-<https://edint.es/def/cubo-turismo> <http://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
 <https://edint.es/def/cubo-turismo> <http://www.w3.org/2000/01/rdf-schema#label> "Cubo de Datos de Turismo"@es .
 <https://edint.es/def/cubo-turismo> <http://www.w3.org/2000/01/rdf-schema#label> "Tourism Data Cube"@en .
 <https://edint.es/def/cubo-turismo> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-cubo-turismo/releases/tag/v0.2.0> .
 <https://edint.es/def/cubo-turismo> <http://www.w3.org/2002/07/owl#versionInfo> "0.2.1" .
+<https://edint.es/def/cubo-turismo> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-cubo-turismo> .
+<https://edint.es/def/cubo-turismo> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
+<https://edint.es/def/cubo-turismo> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
-_:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/dimension> .
-_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "SDMX Dimensions"@en .
-_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "Dimensiones SDMX"@es .
+_:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://www.w3.org/TR/vocab-data-cube/> .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "W3C Data Cube"@es .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "W3C Data Cube"@en .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
-_:genid9 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/measure> .
-_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "SDMX Measures"@en .
-_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "Medidas SDMX"@es .
+_:genid9 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/dimension> .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "SDMX Dimensions"@en .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "Dimensiones SDMX"@es .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
-_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/dimension> .
-_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "EDINT Dimensions"@en .
-_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Dimensiones EDINT"@es .
+_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/measure> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "SDMX Measures"@en .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Medidas SDMX"@es .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid11 .
-_:genid11 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/measure> .
-_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "Medidas EDINT"@es .
-_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "EDINT Measures"@en .
+_:genid11 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/dimension> .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "EDINT Dimensions"@en .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "Dimensiones EDINT"@es .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid12 .
-_:genid12 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
-_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Territory (esadm)"@en .
-_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Territorio (esadm)"@es .
+_:genid12 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/measure> .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Medidas EDINT"@es .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "EDINT Measures"@en .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid13 .
-_:genid13 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
-_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@es .
-_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@en .
+_:genid13 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "Territory (esadm)"@en .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "Territorio (esadm)"@es .
 <https://edint.es/def/cubo-turismo> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid14 .
-_:genid14 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://www.w3.org/TR/vocab-data-cube/> .
-_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "W3C Data Cube"@es .
-_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "W3C Data Cube"@en .
+_:genid14 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@es .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@en .
 # 
 # 
 # #################################################################
@@ -121,23 +121,23 @@ _:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "W3C Data Cube"@en .
 # http://purl.org/vocab/vann/preferredNamespaceUri
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://schema.org/affiliation
-<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://schema.org/codeRepository
-<http://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://schema.org/creativeWorkStatus
-<http://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://schema.org/funding
-<http://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://xmlns.com/foaf/0.1/homepage
 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://xmlns.com/foaf/0.1/name
 <http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/affiliation
+<https://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/codeRepository
+<https://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/creativeWorkStatus
+<https://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/funding
+<https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://w3id.org/widoco/vocab#jsonldSerialization
 <https://w3id.org/widoco/vocab#jsonldSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -412,38 +412,38 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <http://www.w3.org/2000/01/rdf-schema#label> "DSD integrado de turismo"@es .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <http://www.w3.org/2000/01/rdf-schema#label> "Integrated tourism DSD"@en .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid19 .
-_:genid19 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> .
+_:genid19 <https://www.w3.org/TR/vocab-data-cube/order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid19 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid20 .
-_:genid20 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> .
+_:genid20 <https://www.w3.org/TR/vocab-data-cube/order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid20 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid21 .
-_:genid21 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> .
+_:genid21 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid22 .
-_:genid22 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> .
+_:genid22 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid23 .
-_:genid23 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> .
+_:genid23 <https://www.w3.org/TR/vocab-data-cube/order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid23 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid24 .
-_:genid24 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> .
+_:genid24 <https://www.w3.org/TR/vocab-data-cube/order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid24 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid25 .
-_:genid25 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> .
+_:genid25 <https://www.w3.org/TR/vocab-data-cube/order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid25 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid26 .
-_:genid26 <https://www.w3.org/TR/vocab-data-cube/order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid26 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> .
+_:genid26 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid27 .
-_:genid27 <https://www.w3.org/TR/vocab-data-cube/order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid27 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> .
+_:genid27 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid28 .
-_:genid28 <https://www.w3.org/TR/vocab-data-cube/order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid28 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> .
+_:genid28 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid29 .
-_:genid29 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> .
+_:genid29 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid30 .
-_:genid30 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> .
+_:genid30 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid31 .
-_:genid31 <https://www.w3.org/TR/vocab-data-cube/order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid31 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> .
+_:genid31 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid32 .
-_:genid32 <https://www.w3.org/TR/vocab-data-cube/order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid32 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> .
+_:genid32 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> .
 # 
 # https://edint.es/kos/TourismFlowType
 <https://edint.es/kos/TourismFlowType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
