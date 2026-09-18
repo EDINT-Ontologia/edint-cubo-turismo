@@ -46,8 +46,8 @@
                                           schema:codeRepository <https://github.com/EDINT-Ontologia/edint-cubo-turismo> ;
                                           schema:funding "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" ;
                                           dcterms:publisher [ foaf:name "FEMP" ; foaf:homepage <https://www.femp.es/> ; schema:affiliation "Federación Española de Municipios y Provincias" ] ;
-                                          dcterms:bibliographicCitation """Cubo de Datos EDINT de Turismo. EDINT. Revision: v0.2.1."""@es ;
-                                          dcterms:bibliographicCitation """EDINT Tourism Data Cube. EDINT. Revision: v0.2.1."""@en ;
+                                          dcterms:bibliographicCitation """Cubo de Datos EDINT de Turismo. EDINT. Revisión: v0.2.1."""@es ;
+                                          dcterms:bibliographicCitation """EDINT Tourism Data Cube. EDINT. Revisión: v0.2.1."""@en ;
                                           schema:creativeWorkStatus "Ontology Specification"@en ;
                                           dcterms:abstract
         """La ontología de Cubo de Datos Turísticos describe la estructura que contiene las dimensiones y medidas que pueden ser utilizadas para generar cubos de datos turísticos. Algunos ejemplos de cubos son los de ocupación turística, flujo turístico y los de indicadores que permiten evaluar aspectos como ocupación promedio, crecimiento en número de plazas,  crecimiento de flujo turístico, etc. Para desarrollar el cubo de datos turísticos se reutiliza el vocabulario W3C Data Cube."""@es,
