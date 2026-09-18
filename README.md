@@ -1,4 +1,4 @@
-# Cubo de datos EDINT de Turismo (EDINT Tourism Data Cube)
+# Cubo de Datos EDINT de Turismo
 
 [![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://edint.es/def/cubo-turismo)
 ![Prefijo](https://img.shields.io/badge/prefijo-edinttur-informational)
