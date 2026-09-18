@@ -39,6 +39,8 @@
                                           dc:license <https://creativecommons.org/licenses/by/4.0/> ;
                                           dc:title "Cubo de Datos EDINT de Turismo"@es  ;
                                           dc:title "EDINT Tourism Data Cube"@en ;
+                                          rdfs:label "Cubo de Datos de Turismo"@es ;
+                                          rdfs:label "Tourism Data Cube"@en ;
                                           vann:preferredNamespacePrefix "edinttur" ;
                                           vann:preferredNamespaceUri edinttur: ;
                                           owl:versionInfo "0.2.1"  ;
