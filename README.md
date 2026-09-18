@@ -8,7 +8,7 @@ Este recurso define una **ontología de cubos de datos turísticos** para repres
 
 Este cubo de datos está siendo desarrollado en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es/)).
 
-# Propósito y alcance del cubo de datos (Purpose and scope of the data cube)
+## Propósito y alcance del cubo de datos (Purpose and scope of the data cube)
 
 El cubo de datos turísticos se ha diseñado para modelar datos estadísticos del ámbito del turismo de manera unificada, permitiendo describir observaciones según diferentes ejes de análisis, como el territorio, el periodo temporal, el país de origen de los turistas, el tipo de flujo turístico o el número de registro del establecimiento turístico.
 
@@ -42,7 +42,7 @@ Y define las siguientes medidas estadísticas:
 * `edintmeasure:occupiedPlaces` — plazas ocupadas
 *  `edintmeasure:overnightStays` — pernoctaciones
 
-# Prefijo y espacio de nombres (Prefix and namespace)
+## Prefijo y espacio de nombres (Prefix and namespace)
 
 El prefijo de este cubo de datos es `edinttur` y se publica bajo el espacio de nombres https://edint.es/def/cubo-turismo#
 
@@ -50,11 +50,11 @@ Las dimensiones se representan con el prefijo `edintdimension` y se encuentran e
 
 Las medidas se representan con el prefijo `edintmeasure` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/measure#
 
-# Modelo conceptual (Data Cube conceptualization)
+## Modelo conceptual (Data Cube conceptualization)
 
 ![Diagrama del modelo conceptual](diagrams/diagram.png)
 
-# Estructura del repositorio (Repository structure)
+## Estructura del repositorio (Repository structure)
 
 El repositorio debe contener (al menos) las siguientes carpetas
 
@@ -67,11 +67,11 @@ El repositorio debe contener (al menos) las siguientes carpetas
 | **data-cube-ontology/** | Contiene los archivos de implementación del cubo de datos en formatos como .owl .                                                                  |
 | **requirements/**       | Contiene todos los documentos utilizados para definir los requisitos del cubo de datos: preguntas de competencia y sus respectivas SPARQL queries. |
 
-# Mantenimiento y evolución (Maintenance and evolution)
+## Mantenimiento y evolución (Maintenance and evolution)
 
 Para manejar las incidencias o mejoras sugeridas con respecto al cubo de datos, recomendamos seguir las guías proporcionadas en ([Issues Management](./ISSUES.md)) para generar una incidencia.
 
-# Financiación (Funding)
+## Financiación (Funding)
 
 Este cubo de datos ha sido desarrollado en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es)).
 
