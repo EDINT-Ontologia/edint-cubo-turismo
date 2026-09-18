@@ -1,5 +1,5 @@
-<h2 id="desc" class="list">Cubo de Datos Turísticos: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">En la Figura 1 se muestra el modelo conceptual del cubo de turismo con sus clases, relaciones (propiedades de objeto) y algunos individuos.</p>
+<h2 id="desc" class="list">Cubo de Datos de Turismo: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+En la Figura 1 se muestra el modelo conceptual del cubo de turismo con sus clases, relaciones (propiedades de objeto) y algunos individuos.</p>
 <p><center><img src="images/diagram.png"/><figcaption>
 Figura 1. Modelo conceptual de la ontología de cubos de turismo</figcaption></center></p>
 <p>Los cubos se definen mediante los conceptos y propiedades descritos en el vocabulario  <a href="https://www.w3.org/TR/vocab-data-cube/">W3C RDF Data Cube</a>. La <a href="#DSD_Tourism">estructura DSD_TourismOccupation</a> define el conjunto de dimensiones y propiedades del cubo que se pueden combinar de diferentes maneras para generar cubos que cumplan diversos propósitos.</p>
@@ -20,12 +20,12 @@ Figura 1. Modelo conceptual de la ontología de cubos de turismo</figcaption></c
 @prefix sdmx-measure:   <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix edintdim:      <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
 @prefix esadm:         <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
-@prefix edintkos:      <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
+@prefix edintkos:      <https://edint.es/kos/> .
 @prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
-@prefix edintgast: <http://vocab.linkeddata.es/datosabiertos/def/comercio/cubo-gasto-comercial/> .
-@prefix edinttemp: <http://vocab.linkeddata.es/datosabiertos/def/actividad-economica/cubo-empleo#> .
-@prefix edinttur: <http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#> .
-@prefix edinttemp: <http://vocab.linkeddata.es/datosabiertos/def/actividad-economica/cubo-empleo#> .
+@prefix edintgast: <https://edint.es/def/cubo-gasto-comercial/> .
+@prefix edinttemp: <https://edint.es/def/cubo-empleo#> .
+@prefix edinttur: <https://edint.es/def/cubo-turismo#> .
+@prefix edinttemp: <https://edint.es/def/cubo-empleo#> .
 @prefix edintrec: <http://vocab.linkeddata.es/datosabiertos/recurso/>.
 @prefix time:      <http://www.w3.org/2006/time#>.
 
@@ -59,5 +59,5 @@ edintrec:instanteobs-001 a time:Instant;
     });
 </script>
 En el ejemplo anterior se muestra una porción del grafo de conocimiento en RDF para una observación perteneciente al cubo de datos estadístico de turismo. Las dimensiones son la región administrativa de Murcia, el periodo de referencia, agosto de 2025 y el país de residencia, el Reino Unido. Las medidas son la estancia promedio de un turista, el número total de turistas, el número total de viajeros que puede incluir a viajeros que no son turistas y el número total de pernoctas. 
-</span>
+
 
