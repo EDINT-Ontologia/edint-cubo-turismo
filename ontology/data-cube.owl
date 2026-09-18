@@ -44,6 +44,7 @@
                                           owl:versionInfo "0.2.1"  ;
                                           owl:priorVersion <https://github.com/EDINT-Ontologia/edint-cubo-turismo/releases/tag/v0.2.0> ;
                                           schema:codeRepository <https://github.com/EDINT-Ontologia/edint-cubo-turismo> ;
+                                          schema:funding "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" ;
                                           dcterms:publisher [ foaf:name "FEMP" ; foaf:homepage <https://www.femp.es/> ; schema:affiliation "Federación Española de Municipios y Provincias" ] ;
                                           dcterms:bibliographicCitation """Cubo de Datos EDINT de Turismo. EDINT. Revision: v0.2.1."""@es ;
                                           dcterms:bibliographicCitation """EDINT Tourism Data Cube. EDINT. Revision: v0.2.1."""@en ;
