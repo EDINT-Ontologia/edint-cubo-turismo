@@ -1,10 +1,14 @@
-# Cubo de datos EDINT de Turismo (EDINT Tourism Data Cube)
+# Cubo de Datos EDINT de Turismo
+
+[![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://edint.es/def/cubo-turismo)
+![Prefijo](https://img.shields.io/badge/prefijo-edinttur-informational)
+[![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
 
 Este recurso define una **ontología de cubos de datos turísticos** para representar de forma estructurada distintos conjuntos de datos relacionados con el turismo, incluyendo **ocupación turística**, **flujo turístico** e **indicadores turísticos**. El modelo se basa en el vocabulario **W3C RDF Data Cube** , lo que permite describir dimensiones, medidas y estructuras de datos de forma interoperable, reutilizable y preparada para su explotación en entornos semánticos.
 
 Este cubo de datos está siendo desarrollado en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es/)).
 
-# Propósito y alcance del cubo de datos (Purpose and scope of the data cube)
+## Propósito y alcance del cubo de datos (Purpose and scope of the data cube)
 
 El cubo de datos turísticos se ha diseñado para modelar datos estadísticos del ámbito del turismo de manera unificada, permitiendo describir observaciones según diferentes ejes de análisis, como el territorio, el periodo temporal, el país de origen de los turistas, el tipo de flujo turístico o el número de registro del establecimiento turístico.
 
@@ -38,19 +42,19 @@ Y define las siguientes medidas estadísticas:
 * `edintmeasure:occupiedPlaces` — plazas ocupadas
 *  `edintmeasure:overnightStays` — pernoctaciones
 
-# Prefijo y espacio de nombres (Prefix and namespace)
+## Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo del cubo de datos es: edinttur y se encuentra publicada en el espacio de nombres: **[https://edint.es/def/cubo-turismo#]()**
+El prefijo de este cubo de datos es `edinttur` y se publica bajo el espacio de nombres https://edint.es/def/cubo-turismo#
 
-Las dimensiones se representan con el prefijo **edintdimension** y se encuentra en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/dimension#](http://vocab.linkeddata.es/datosabiertos/def/dimension#)**
+Las dimensiones se representan con el prefijo `edintdimension` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/dimension#
 
-Las medidas se representan con el prefijo **edintmeasure** y se encuentre en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/measure#](http://vocab.linkeddata.es/datosabiertos/def/measure#)**
+Las medidas se representan con el prefijo `edintmeasure` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/measure#
 
-# Modelo conceptual (Data Cube conceptualization)
+## Modelo conceptual (Data Cube conceptualization)
 
 ![Diagrama del modelo conceptual](diagrams/diagram.png)
 
-# Estructura del repositorio (Repository structure)
+## Estructura del repositorio (Repository structure)
 
 El repositorio debe contener (al menos) las siguientes carpetas
 
@@ -63,11 +67,11 @@ El repositorio debe contener (al menos) las siguientes carpetas
 | **data-cube-ontology/** | Contiene los archivos de implementación del cubo de datos en formatos como .owl .                                                                  |
 | **requirements/**       | Contiene todos los documentos utilizados para definir los requisitos del cubo de datos: preguntas de competencia y sus respectivas SPARQL queries. |
 
-# Mantenimiento y evolución (Maintenance and evolution)
+## Mantenimiento y evolución (Maintenance and evolution)
 
 Para manejar las incidencias o mejoras sugeridas con respecto al cubo de datos, recomendamos seguir las guías proporcionadas en ([Issues Management](./ISSUES.md)) para generar una incidencia.
 
-# Financiación (Funding)
+## Financiación (Funding)
 
 Este cubo de datos ha sido desarrollado en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es)).
 
