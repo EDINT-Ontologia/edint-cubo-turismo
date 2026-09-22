@@ -5,12 +5,13 @@ Esta carpeta contiene las **restricciones descritas en SHACL (Shapes Constraint 
 
 Estas restricciones se utilizan para validar datos RDF y asegurar que los datos de instancia se ajusten a la estructura, restricciones y semántica de la ontología.
 
-
 # Propósito
 
 El objetivo de este directorio es almacenar las **reglas y restricciones de validación** definidas para la ontología.
 
 Las restricciones SHACL ayudan a verificar que los datos que utilizan la ontología sigan el modelo previsto, comprobando la pertenencia a clases, los rangos de las propiedades, las cardinalidades y otras condiciones.
+
+En el caso de los cubos de datos, no hay restricciones específicas asociadas a la ontología como tal, aunque no se descarta la generación de algunas restricciones específicas del cubo de datos en el futuro.
 
 
 # Formatos aceptados
