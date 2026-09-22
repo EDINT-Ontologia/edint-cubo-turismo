@@ -1,33 +1,124 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://www.w3.org/TR/vocab-data-cube/"
-     xml:base="https://www.w3.org/TR/vocab-data-cube/"
+<rdf:RDF xmlns="https://edint.es/def/cubo-turismo#"
+     xml:base="https://edint.es/def/cubo-turismo"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vocab="https://w3id.org/widoco/vocab#"
+     xmlns:schema="https://schema.org/"
      xmlns:vocab-data-cube="https://www.w3.org/TR/vocab-data-cube/">
-    <owl:Ontology rdf:about="https://www.w3.org/TR/vocab-data-cube/">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo/0.1.0"/>
+    <owl:Ontology rdf:about="https://edint.es/def/cubo-turismo">
+        <owl:versionIRI rdf:resource="https://edint.es/def/cubo-turismo/0.2.1"/>
         <owl:imports rdf:resource="https://www.w3.org/TR/vocab-data-cube/"/>
+        <terms:abstract xml:lang="es">La ontología de Cubo de Datos Turísticos describe la estructura que contiene las dimensiones y medidas que pueden ser utilizadas para generar cubos de datos turísticos. Algunos ejemplos de cubos son los de ocupación turística, flujo turístico y los de indicadores que permiten evaluar aspectos como ocupación promedio, crecimiento en número de plazas,  crecimiento de flujo turístico, etc. Para desarrollar el cubo de datos turísticos se reutiliza el vocabulario W3C Data Cube.</terms:abstract>
+        <terms:abstract xml:lang="en">The Tourism Data Cube ontology describes the structure containing the dimensions and measures that can be used to generate tourism data cubes. Examples of such cubes include those for tourist occupancy, tourist flow, and indicators that allow for the evaluation of aspects like average occupancy, growth in the number of accommodations, growth in tourist flow, etc. The W3C Data Cube vocabulary was reused to develop the tourism data cube.</terms:abstract>
+        <terms:bibliographicCitation xml:lang="es">Cubo de Datos EDINT de Turismo. EDINT. Revisión: v0.2.1.</terms:bibliographicCitation>
+        <terms:bibliographicCitation xml:lang="en">EDINT Tourism Data Cube. EDINT. Revision: v0.2.1.</terms:bibliographicCitation>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-17</terms:created>
-        <terms:creator>Daniel Doña</terms:creator>
-        <terms:creator>Diego Conde Herreros</terms:creator>
-        <terms:creator>Edna Ruckhaus</terms:creator>
-        <terms:creator>Lucía Sánchez</terms:creator>
-        <terms:creator>Oscar Corcho</terms:creator>
-        <terms:creator>Socorro Bernardos</terms:creator>
+        <terms:creator rdf:nodeID="genid1"/>
+        <terms:creator rdf:nodeID="genid2"/>
+        <terms:creator rdf:nodeID="genid3"/>
+        <terms:creator rdf:nodeID="genid4"/>
+        <terms:creator rdf:nodeID="genid5"/>
+        <terms:creator rdf:nodeID="genid6"/>
         <terms:description xml:lang="es">La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas.</terms:description>
         <terms:description xml:lang="en">The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:title xml:lang="es">Ontología de Cubo de Datos Turísticos</terms:title>
-        <terms:title xml:lang="en">Tourism Data Cube Ontology</terms:title>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</terms:modified>
+        <terms:publisher rdf:nodeID="genid7"/>
+        <terms:title xml:lang="es">Cubo de Datos EDINT de Turismo</terms:title>
+        <terms:title xml:lang="en">EDINT Tourism Data Cube</terms:title>
         <vann:preferredNamespacePrefix>edinttur</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#"/>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
+        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/cubo-turismo#"/>
+        <rdfs:label xml:lang="es">Cubo de Datos de Turismo</rdfs:label>
+        <rdfs:label xml:lang="en">Tourism Data Cube</rdfs:label>
+        <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-cubo-turismo/releases/tag/v0.2.0"/>
+        <owl:versionInfo>0.2.1</owl:versionInfo>
+        <schema:codeRepository rdf:resource="https://github.com/EDINT-Ontologia/edint-cubo-turismo"/>
+        <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
+        <schema:funding>Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)</schema:funding>
+        <vocab:jsonldSerialization>ontology.jsonld</vocab:jsonldSerialization>
+        <vocab:ntSerialization>ontology.nt</vocab:ntSerialization>
+        <vocab:rdfxmlSerialization>ontology.rdf</vocab:rdfxmlSerialization>
+        <vocab:turtleSerialization>ontology.ttl</vocab:turtleSerialization>
+        <vocab:vocabularyLabel rdf:nodeID="genid8"/>
+        <vocab:vocabularyLabel rdf:nodeID="genid9"/>
+        <vocab:vocabularyLabel rdf:nodeID="genid10"/>
+        <vocab:vocabularyLabel rdf:nodeID="genid11"/>
+        <vocab:vocabularyLabel rdf:nodeID="genid12"/>
+        <vocab:vocabularyLabel rdf:nodeID="genid13"/>
+        <vocab:vocabularyLabel rdf:nodeID="genid14"/>
     </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <foaf:name>Daniel Doña</foaf:name>
+        <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <foaf:name>Diego Conde Herreros</foaf:name>
+        <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <foaf:name>Edna Ruckhaus</foaf:name>
+        <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <foaf:name>Lucía Sánchez</foaf:name>
+        <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <foaf:name>Oscar Corcho</foaf:name>
+        <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <foaf:name>Socorro Bernardos</foaf:name>
+        <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <foaf:homepage rdf:resource="https://www.femp.es/"/>
+        <foaf:name>FEMP</foaf:name>
+        <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdfs:label xml:lang="en">W3C Data Cube</rdfs:label>
+        <rdfs:label xml:lang="es">W3C Data Cube</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="https://www.w3.org/TR/vocab-data-cube/"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid9">
+        <rdfs:label xml:lang="es">Dimensiones SDMX</rdfs:label>
+        <rdfs:label xml:lang="en">SDMX Dimensions</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://purl.org/linked-data/sdmx/2009/dimension"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdfs:label xml:lang="es">Medidas SDMX</rdfs:label>
+        <rdfs:label xml:lang="en">SDMX Measures</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://purl.org/linked-data/sdmx/2009/measure"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdfs:label xml:lang="es">Dimensiones EDINT</rdfs:label>
+        <rdfs:label xml:lang="en">EDINT Dimensions</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <rdfs:label xml:lang="en">EDINT Measures</rdfs:label>
+        <rdfs:label xml:lang="es">Medidas EDINT</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdfs:label xml:lang="es">Territorio (esadm)</rdfs:label>
+        <rdfs:label xml:lang="en">Territory (esadm)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <rdfs:label xml:lang="en">OWL-Time</rdfs:label>
+        <rdfs:label xml:lang="es">OWL-Time</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://www.w3.org/2006/time"/>
+    </rdf:Description>
     
 
 
@@ -40,6 +131,20 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
     
 
 
@@ -64,10 +169,31 @@
     
 
 
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
     
 
 
@@ -89,6 +215,90 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://schema.org/affiliation -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/affiliation"/>
+    
+
+
+    <!-- https://schema.org/codeRepository -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/codeRepository"/>
+    
+
+
+    <!-- https://schema.org/creativeWorkStatus -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/creativeWorkStatus"/>
+    
+
+
+    <!-- https://schema.org/funding -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/funding"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#jsonldSerialization -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#jsonldSerialization"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#ntSerialization -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#ntSerialization"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#rdfxmlSerialization -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#rdfxmlSerialization"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#turtleSerialization -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#turtleSerialization"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#vocabularyIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#vocabularyIRI"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#vocabularyLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#vocabularyLabel"/>
     
 
 
@@ -571,92 +781,92 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism -->
+    <!-- https://edint.es/def/cubo-turismo#DSD_Tourism -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/cubo-turismo#DSD_Tourism">
+    <owl:NamedIndividual rdf:about="https://edint.es/def/cubo-turismo#DSD_Tourism">
         <rdf:type rdf:resource="https://www.w3.org/TR/vocab-data-cube/DataStructureDefinition"/>
         <rdfs:comment xml:lang="es">Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos.</rdfs:comment>
         <rdfs:label xml:lang="es">DSD integrado de turismo</rdfs:label>
         <rdfs:label xml:lang="en">Integrated tourism DSD</rdfs:label>
-        <component rdf:nodeID="genid5"/>
-        <component rdf:nodeID="genid6"/>
-        <component rdf:nodeID="genid7"/>
-        <component>
+        <vocab-data-cube:component rdf:nodeID="genid19"/>
+        <vocab-data-cube:component rdf:nodeID="genid20"/>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component rdf:nodeID="genid23"/>
+        <vocab-data-cube:component rdf:nodeID="genid24"/>
+        <vocab-data-cube:component rdf:nodeID="genid25"/>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"/>
             </rdf:Description>
-        </component>
-        <component rdf:nodeID="genid15"/>
-        <component rdf:nodeID="genid16"/>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident"/>
             </rdf:Description>
-        </component>
-        <component>
+        </vocab-data-cube:component>
+        <vocab-data-cube:component>
             <rdf:Description>
-                <measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces"/>
             </rdf:Description>
-        </component>
+        </vocab-data-cube:component>
     </owl:NamedIndividual>
-    <rdf:Description rdf:nodeID="genid5">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</order>
+    <rdf:Description rdf:nodeID="genid19">
+        <vocab-data-cube:dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType"/>
+        <vocab-data-cube:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</vocab-data-cube:order>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid6">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</order>
+    <rdf:Description rdf:nodeID="genid20">
+        <vocab-data-cube:dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"/>
+        <vocab-data-cube:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</vocab-data-cube:order>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid7">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</order>
+    <rdf:Description rdf:nodeID="genid23">
+        <vocab-data-cube:dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion"/>
+        <vocab-data-cube:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</vocab-data-cube:order>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid15">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</order>
+    <rdf:Description rdf:nodeID="genid24">
+        <vocab-data-cube:dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod"/>
+        <vocab-data-cube:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</vocab-data-cube:order>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid16">
-        <dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber"/>
-        <order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</order>
+    <rdf:Description rdf:nodeID="genid25">
+        <vocab-data-cube:dimension rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence"/>
+        <vocab-data-cube:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</vocab-data-cube:order>
     </rdf:Description>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/TourismFlowType -->
+    <!-- https://edint.es/kos/TourismFlowType -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/TourismFlowType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/TourismFlowType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="es">Tipo de flujo turístico</rdfs:label>
         <rdfs:label xml:lang="en">Tourism flow type</rdfs:label>
@@ -664,10 +874,10 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/country -->
+    <!-- https://edint.es/kos/country -->
 
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/country">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/country">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Country</rdfs:label>
         <rdfs:label xml:lang="es">País</rdfs:label>
@@ -689,14 +899,14 @@
         <rdfs:comment xml:lang="es">País de residencia del turista.</rdfs:comment>
         <rdfs:label xml:lang="en">country of residence</rdfs:label>
         <rdfs:label xml:lang="es">país de residencia</rdfs:label>
-        <codeList rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/country"/>
+        <vocab-data-cube:codeList rdf:resource="https://edint.es/kos/country"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType">
         <rdfs:comment xml:lang="es">Tipo de flujo turístico (nacional, internacional, interprovincial).</rdfs:comment>
         <rdfs:comment xml:lang="en">Type of tourist flow (national, international, interprovintial).</rdfs:comment>
         <rdfs:label xml:lang="en">flow type</rdfs:label>
         <rdfs:label xml:lang="es">tipo de flujo</rdfs:label>
-        <codeList rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/TourismFlowType"/>
+        <vocab-data-cube:codeList rdf:resource="https://edint.es/kos/TourismFlowType"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion">
         <rdfs:comment xml:lang="en">Reference to an administrative region that can be a neighborhood, district, or municipality.</rdfs:comment>
@@ -769,6 +979,9 @@
         <rdfs:comment xml:lang="en">Total number of overnight stays per person.</rdfs:comment>
         <rdfs:label xml:lang="en">overnight stays</rdfs:label>
         <rdfs:label xml:lang="es">pernoctaciones</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://oeg.fi.upm.es/">
+        <foaf:name>Ontology Engineering Group, UPM</foaf:name>
     </rdf:Description>
 </rdf:RDF>
 
