@@ -20,18 +20,19 @@
 @prefix edintemp: <https://edint.es/def/cubo-empleo#> .
 @prefix edintrec: <http://vocab.linkeddata.es/datosabiertos/recurso> .
 @prefix time:      <http://www.w3.org/2006/time#>.
+@prefix ex: <http://example.org/recurso> .
 
 
-edinttur:dsTourism a qb:DataSet ;
-    rdfs:label "Dataset de turismo integrado"@es ;
+ex:dsTourism a qb:DataSet ;
+    rdfs:label "Dataset de ejemplo de turismo integrado"@es ;
     qb:structure edinttur:DSD_Tourism .
 
-edinttur:obsTourism-001 a qb:Observation ;
-    qb:dataSet edinttur:dsTourism ;
+ex:obsTourism-001 a qb:Observation ;
+    qb:dataSet ex:dsTourism ;
 
     # --- Dimensiones ---
     edintdim:refAdminRegion      esadm:Murcia ;
-    edintdim:refPeriod           edintrec:instanteobs-001;
+    edintdim:refPeriod           ex:instanteobs-001;
     edintdim:countryOfResidence     edintkos:UnitedKingdom ;
 
     # --- Medidas ---
@@ -41,5 +42,5 @@ edinttur:obsTourism-001 a qb:Observation ;
     edintmeasure:overnightStays       "13312"^^xsd:nonNegativeInteger .
 
 # --- Año y mes de la observación ---
-edintrec:instanteobs-001 a time:Instant;
+ex:instanteobs-001 a time:Instant;
     time:inXSDgYearMonth          "2025-08"^^xsd:gYearMonth .
