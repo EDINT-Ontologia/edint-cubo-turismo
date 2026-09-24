@@ -559,7 +559,7 @@ _:genid25 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linked
                                                                                        "registration number (Segittur)"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> rdfs:comment "Beda available in Accomodations"@en ,
+<http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> rdfs:comment "Beds available in Accomodations"@en ,
                                                                                     "Plazas disponibles en alojamientos."@es ;
                                                                        rdfs:label "available places"@en ,
                                                                                   "plazas disponibles"@es .
@@ -577,7 +577,7 @@ _:genid25 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linked
                                                                                    "occupancy rate"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> rdfs:comment "Evolución de la capacidad alojativa en un período dado permitiendo conocer si está en expansión, estabilidad o recucción. Mide la variación porcentual de la capacidad alojativa de un período con respecto al período anterior."@es ,
+<http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> rdfs:comment "Evolución de la capacidad alojativa en un período dado permitiendo conocer si está en expansión, estabilidad o reducción. Mide la variación porcentual de la capacidad alojativa de un período con respecto al período anterior."@es ,
                                                                                    "The evolution of accommodation capacity over a given period allows us to determine if it is expanding, stable, or declining. It measures the percentage change in accommodation capacity in a certain period with respect to the previous period."@en ;
                                                                       rdfs:label "crecimiento de plazas"@es ,
                                                                                  "growth of places"@en .
