@@ -652,7 +652,7 @@
     "@value" : "The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures."
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+    "@id" : "https://creativecommons.org/licenses/by-sa/4.0/"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "es",

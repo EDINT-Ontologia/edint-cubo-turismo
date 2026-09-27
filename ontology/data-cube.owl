@@ -35,7 +35,7 @@
                                                    [ foaf:name "Socorro Bernardos" ; schema:affiliation <https://oeg.fi.upm.es/> ] ;
                                           dcterms:description "La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas."@es ,
                                                          "The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures."@en ;
-                                          dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                          dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
                                           dcterms:title "Cubo de Datos EDINT de Turismo"@es  ;
                                           dcterms:title "EDINT Tourism Data Cube"@en ;
                                           rdfs:label "Cubo de Datos de Turismo"@es ;
