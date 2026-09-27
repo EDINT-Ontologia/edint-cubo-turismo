@@ -18,7 +18,7 @@
                                                                              "Socorro Bernardos" ;
                                           <http://purl.org/dc/terms/description> "La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas."@es ,
                                                                                  "The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures."@en ;
-                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
                                           <http://purl.org/dc/terms/title> "Ontología de Cubo de Datos Turísticos"@es ,
                                                                            "Tourism Data Cube Ontology"@en ;
                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "edinttur" ;
