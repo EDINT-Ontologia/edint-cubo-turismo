@@ -10,7 +10,7 @@
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/creator> "Socorro Bernardos" .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/description> "La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas."@es .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/description> "The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures."@en .
-<https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/title> "Ontología de Cubo de Datos Turísticos"@es .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/dc/terms/title> "Tourism Data Cube Ontology"@en .
 <https://www.w3.org/TR/vocab-data-cube/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edinttur" .
