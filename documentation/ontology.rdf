@@ -85,39 +85,39 @@
         <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid8">
-        <rdfs:label xml:lang="es">Dimensiones SDMX</rdfs:label>
-        <rdfs:label xml:lang="en">SDMX Dimensions</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://purl.org/linked-data/sdmx/2009/dimension"/>
+        <rdfs:label xml:lang="en">W3C Data Cube</rdfs:label>
+        <rdfs:label xml:lang="es">W3C Data Cube</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="https://www.w3.org/TR/vocab-data-cube/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid9">
-        <rdfs:label xml:lang="es">Medidas SDMX</rdfs:label>
-        <rdfs:label xml:lang="en">SDMX Measures</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://purl.org/linked-data/sdmx/2009/measure"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid10">
-        <rdfs:label xml:lang="es">Dimensiones EDINT</rdfs:label>
-        <rdfs:label xml:lang="en">EDINT Dimensions</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid11">
-        <rdfs:label xml:lang="en">EDINT Measures</rdfs:label>
-        <rdfs:label xml:lang="es">Medidas EDINT</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid12">
-        <rdfs:label xml:lang="es">Territorio (esadm)</rdfs:label>
-        <rdfs:label xml:lang="en">Territory (esadm)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid13">
         <rdfs:label xml:lang="en">OWL-Time</rdfs:label>
         <rdfs:label xml:lang="es">OWL-Time</rdfs:label>
         <vocab:vocabularyIRI rdf:resource="http://www.w3.org/2006/time"/>
     </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdfs:label xml:lang="es">Dimensiones SDMX</rdfs:label>
+        <rdfs:label xml:lang="en">SDMX Dimensions</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://purl.org/linked-data/sdmx/2009/dimension"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdfs:label xml:lang="es">Medidas SDMX</rdfs:label>
+        <rdfs:label xml:lang="en">SDMX Measures</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://purl.org/linked-data/sdmx/2009/measure"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <rdfs:label xml:lang="es">Dimensiones EDINT</rdfs:label>
+        <rdfs:label xml:lang="en">EDINT Dimensions</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/dimension"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdfs:label xml:lang="en">EDINT Measures</rdfs:label>
+        <rdfs:label xml:lang="es">Medidas EDINT</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure"/>
+    </rdf:Description>
     <rdf:Description rdf:nodeID="genid14">
-        <rdfs:label xml:lang="en">W3C Data Cube</rdfs:label>
-        <rdfs:label xml:lang="es">W3C Data Cube</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="https://www.w3.org/TR/vocab-data-cube/"/>
+        <rdfs:label xml:lang="es">Territorio (esadm)</rdfs:label>
+        <rdfs:label xml:lang="en">Territory (esadm)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
     </rdf:Description>
     
 
@@ -765,12 +765,12 @@
         <rdfs:label xml:lang="en">Integrated tourism DSD</rdfs:label>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component>
@@ -785,12 +785,12 @@
         </vocab-data-cube:component>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component rdf:nodeID="genid25"/>

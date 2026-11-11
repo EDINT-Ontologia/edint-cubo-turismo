@@ -10,6 +10,30 @@
   "@id" : "_:genid10",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
+    "@value" : "SDMX Dimensions"
+  }, {
+    "@language" : "es",
+    "@value" : "Dimensiones SDMX"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://purl.org/linked-data/sdmx/2009/dimension"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SDMX Measures"
+  }, {
+    "@language" : "es",
+    "@value" : "Medidas SDMX"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://purl.org/linked-data/sdmx/2009/measure"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "EDINT Dimensions"
   }, {
     "@language" : "es",
@@ -19,7 +43,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/dimension"
   } ]
 }, {
-  "@id" : "_:genid11",
+  "@id" : "_:genid13",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Medidas EDINT"
@@ -31,7 +55,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure"
   } ]
 }, {
-  "@id" : "_:genid12",
+  "@id" : "_:genid14",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Territory (esadm)"
@@ -41,30 +65,6 @@
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"
-  } ]
-}, {
-  "@id" : "_:genid13",
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "OWL-Time"
-  }, {
-    "@language" : "en",
-    "@value" : "OWL-Time"
-  } ],
-  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "http://www.w3.org/2006/time"
-  } ]
-}, {
-  "@id" : "_:genid14",
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "W3C Data Cube"
-  }, {
-    "@language" : "en",
-    "@value" : "W3C Data Cube"
-  } ],
-  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "https://www.w3.org/TR/vocab-data-cube/"
   } ]
 }, {
   "@id" : "_:genid15",
@@ -81,7 +81,7 @@
 }, {
   "@id" : "_:genid19",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"
   } ]
 }, {
   "@id" : "_:genid2",
@@ -94,7 +94,7 @@
 }, {
   "@id" : "_:genid20",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
   } ]
 }, {
   "@id" : "_:genid21",
@@ -109,12 +109,12 @@
 }, {
   "@id" : "_:genid23",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces"
   } ]
 }, {
   "@id" : "_:genid24",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
   } ]
 }, {
   "@id" : "_:genid25",
@@ -222,26 +222,26 @@
 }, {
   "@id" : "_:genid8",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "SDMX Dimensions"
-  }, {
     "@language" : "es",
-    "@value" : "Dimensiones SDMX"
+    "@value" : "W3C Data Cube"
+  }, {
+    "@language" : "en",
+    "@value" : "W3C Data Cube"
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "http://purl.org/linked-data/sdmx/2009/dimension"
+    "@id" : "https://www.w3.org/TR/vocab-data-cube/"
   } ]
 }, {
   "@id" : "_:genid9",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "SDMX Measures"
-  }, {
     "@language" : "es",
-    "@value" : "Medidas SDMX"
+    "@value" : "OWL-Time"
+  }, {
+    "@language" : "en",
+    "@value" : "OWL-Time"
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "http://purl.org/linked-data/sdmx/2009/measure"
+    "@id" : "http://www.w3.org/2006/time"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/abstract",

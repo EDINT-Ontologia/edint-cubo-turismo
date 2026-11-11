@@ -71,33 +71,33 @@ _:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> ;
           <http://xmlns.com/foaf/0.1/name> "FEMP" ;
           <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 
-_:genid8 rdfs:label "Dimensiones SDMX"@es ,
-                     "SDMX Dimensions"@en ;
-          <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/dimension> .
+_:genid8 rdfs:label "W3C Data Cube"@en ,
+                     "W3C Data Cube"@es ;
+          <https://w3id.org/widoco/vocab#vocabularyIRI> <https://www.w3.org/TR/vocab-data-cube/> .
 
-_:genid9 rdfs:label "Medidas SDMX"@es ,
-                     "SDMX Measures"@en ;
-          <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/measure> .
+_:genid9 rdfs:label "OWL-Time"@en ,
+                     "OWL-Time"@es ;
+          <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
 
-_:genid10 rdfs:label "Dimensiones EDINT"@es ,
+_:genid10 rdfs:label "Dimensiones SDMX"@es ,
+                      "SDMX Dimensions"@en ;
+           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/dimension> .
+
+_:genid11 rdfs:label "Medidas SDMX"@es ,
+                      "SDMX Measures"@en ;
+           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/measure> .
+
+_:genid12 rdfs:label "Dimensiones EDINT"@es ,
                       "EDINT Dimensions"@en ;
            <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/dimension> .
 
-_:genid11 rdfs:label "EDINT Measures"@en ,
+_:genid13 rdfs:label "EDINT Measures"@en ,
                       "Medidas EDINT"@es ;
            <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/measure> .
 
-_:genid12 rdfs:label "Territorio (esadm)"@es ,
+_:genid14 rdfs:label "Territorio (esadm)"@es ,
                       "Territory (esadm)"@en ;
            <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
-
-_:genid13 rdfs:label "OWL-Time"@en ,
-                      "OWL-Time"@es ;
-           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
-
-_:genid14 rdfs:label "W3C Data Cube"@en ,
-                      "W3C Data Cube"@es ;
-           <https://w3id.org/widoco/vocab#vocabularyIRI> <https://www.w3.org/TR/vocab-data-cube/> .
 
 #################################################################
 #    Annotation properties
@@ -457,17 +457,17 @@ _:genid14 rdfs:label "W3C Data Cube"@en ,
              rdfs:comment "Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos."@es ;
              rdfs:label "DSD integrado de turismo"@es ,
                         "Integrated tourism DSD"@en ;
-             <https://www.w3.org/TR/vocab-data-cube/component> [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces>
+             <https://www.w3.org/TR/vocab-data-cube/component> [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists>
                                                                ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces>
+                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces>
                                                                ] ,
                                                                [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers>
                                                                ] ,
                                                                [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces>
                                                                ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays>
+                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces>
                                                                ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists>
+                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays>
                                                                ] ,
                                                                _:genid25 ,
                                                                _:genid26 ,
