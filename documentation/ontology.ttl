@@ -457,15 +457,15 @@ _:genid14 rdfs:label "W3C Data Cube"@en ,
              rdfs:comment "Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos."@es ;
              rdfs:label "DSD integrado de turismo"@es ,
                         "Integrated tourism DSD"@en ;
-             <https://www.w3.org/TR/vocab-data-cube/component> [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers>
+             <https://www.w3.org/TR/vocab-data-cube/component> [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces>
                                                                ] ,
                                                                [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces>
                                                                ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays>
+                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers>
                                                                ] ,
                                                                [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces>
                                                                ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces>
+                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays>
                                                                ] ,
                                                                [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists>
                                                                ] ,

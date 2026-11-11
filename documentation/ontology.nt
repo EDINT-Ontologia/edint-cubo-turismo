@@ -397,15 +397,15 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <http://www.w3.org/2000/01/rdf-schema#label> "DSD integrado de turismo"@es .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <http://www.w3.org/2000/01/rdf-schema#label> "Integrated tourism DSD"@en .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid19 .
-_:genid19 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> .
+_:genid19 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid20 .
 _:genid20 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid21 .
-_:genid21 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> .
+_:genid21 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid22 .
 _:genid22 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid23 .
-_:genid23 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> .
+_:genid23 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid24 .
 _:genid24 <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> .
 <https://edint.es/def/cubo-turismo#DSD_Tourism> <https://www.w3.org/TR/vocab-data-cube/component> _:genid25 .

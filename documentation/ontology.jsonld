@@ -81,7 +81,7 @@
 }, {
   "@id" : "_:genid19",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
   } ]
 }, {
   "@id" : "_:genid2",
@@ -99,7 +99,7 @@
 }, {
   "@id" : "_:genid21",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"
   } ]
 }, {
   "@id" : "_:genid22",
@@ -109,7 +109,7 @@
 }, {
   "@id" : "_:genid23",
   "https://www.w3.org/TR/vocab-data-cube/measure" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"
   } ]
 }, {
   "@id" : "_:genid24",

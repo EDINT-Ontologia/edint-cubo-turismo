@@ -765,7 +765,7 @@
         <rdfs:label xml:lang="en">Integrated tourism DSD</rdfs:label>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component>
@@ -775,7 +775,7 @@
         </vocab-data-cube:component>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component>
@@ -785,7 +785,7 @@
         </vocab-data-cube:component>
         <vocab-data-cube:component>
             <rdf:Description>
-                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces"/>
+                <vocab-data-cube:measure rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays"/>
             </rdf:Description>
         </vocab-data-cube:component>
         <vocab-data-cube:component>
