@@ -1,11 +1,11 @@
 # TUR04: ¿Cuál es el número de turistas por tipo de flujo y país de origen en una región administrativa y período concretos?
 
-PREFIX qb: <https://www.w3.org/TR/vocab-data-cube/>
+PREFIX qb: <http://purl.org/linked-data/cube#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX edinttur: <https://edint.es/def/cubo-turismo#>
-PREFIX edintdimension: <http://vocab.linkeddata.es/datosabiertos/def/dimension#>
-PREFIX edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#>
+PREFIX edintdimension: <https://edint.es/def/dimension#>
+PREFIX edintmeasure: <https://edint.es/def/measure#>
 PREFIX esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 
 SELECT ?flowType ?flowTypeLabel ?country ?countryLabel ?numTourists
