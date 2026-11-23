@@ -41,7 +41,7 @@
                                           rdfs:label "Cubo de Datos de Turismo"@es ;
                                           rdfs:label "Tourism Data Cube"@en ;
                                           vann:preferredNamespacePrefix "edinttur" ;
-                                          vann:preferredNamespaceUri edinttur: ;
+                                          vann:preferredNamespaceUri "https://edint.es/def/cubo-turismo#" ;
                                           owl:versionInfo "0.2.1"  ;
                                           owl:priorVersion <https://github.com/EDINT-Ontologia/edint-cubo-turismo/releases/tag/v0.2.0> ;
                                           schema:codeRepository <https://github.com/EDINT-Ontologia/edint-cubo-turismo> ;
