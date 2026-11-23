@@ -12,7 +12,7 @@ Este cubo de datos está siendo desarrollado en el contexto del Espacio de Datos
 
 El cubo de datos turísticos se ha diseñado para modelar datos estadísticos del ámbito del turismo de manera unificada, permitiendo describir observaciones según diferentes ejes de análisis, como el territorio, el periodo temporal, el país de origen de los turistas, el tipo de flujo turístico o el número de registro del establecimiento turístico.
 
-El vocabulario reutiliza y extiende términos procedentes de estándares y recursos como **[RDF Data Cube](https://www.w3.org/TR/vocab-data-cube/)**, **[SDMX](https://sdmx.org/)**, **[Time Ontology](https://www.w3.org/TR/owl-time/)**, clasificaciones SKOS y vocabularios de administración pública, con el objetivo de favorecer la interoperabilidad con otros conjuntos de datos y modelos estadísticos.
+El vocabulario reutiliza y extiende términos procedentes de estándares y recursos como **[RDF Data Cube](<http://purl.org/linked-data/cube#>)**, **[SDMX](https://sdmx.org/)**, **[Time Ontology](https://www.w3.org/TR/owl-time/)**, clasificaciones SKOS y vocabularios de administración pública, con el objetivo de favorecer la interoperabilidad con otros conjuntos de datos y modelos estadísticos.
 
 El cubo incluye las siguientes dimensiones:
 
@@ -46,9 +46,9 @@ Y define las siguientes medidas estadísticas:
 
 El prefijo de este cubo de datos es `edinttur` y se publica bajo el espacio de nombres https://edint.es/def/cubo-turismo#
 
-Las dimensiones se representan con el prefijo `edintdimension` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/dimension#
+Las dimensiones se representan con el prefijo `edintdimension` y se encuentran en el espacio de nombres https://edint.es/def/dimension#
 
-Las medidas se representan con el prefijo `edintmeasure` y se encuentran en el espacio de nombres http://vocab.linkeddata.es/datosabiertos/def/measure#
+Las medidas se representan con el prefijo `edintmeasure` y se encuentran en el espacio de nombres https://edint.es/def/measure#
 
 ## Modelo conceptual (Data Cube conceptualization)
 

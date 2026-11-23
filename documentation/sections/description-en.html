@@ -4,54 +4,30 @@ Figure 1 shows the conceptual model of the tourism cube with its classes, relati
 <p><center><img src="images/diagram.png"/><figcaption>
 Figure 1. Conceptual model of the tourism cube ontology</figcaption></center></p>
 <p>Cubes are defined using the concepts and properties described in the <a href="https://www.w3.org/TR/vocab-data-cube/">W3C RDF Data Cube</a> vocabulary. The <a href="#DSD_Tourism">DSD_TourismOccupation</a> structure defines the set of cube dimensions and properties that can be combined in different ways to generate cubes that serve various purposes.</p>
-<p>For example, a cube that analyzes tourism occupancy data could use the <a href="#http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion">administrative region</a> dimension and the <a href="#http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod">period</a> dimension.</a> The measure would be the <a href="#http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers">number of travelers</a> which refers to the number of people who have occupied accommodation establishments in a certain period of time, the year 2025, in a certain administrative region, the municipality of Benidorm. Similarly, by adding the dimensions <a href="#http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType">type of tourist flow</a> and <a href="#http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence">country of residence</a>, it is possible to have the (<a href="#http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists">number of tourists</a>) from a certain country, for example Germany, who have arrived in Benidorm in the year 2025.
+<p>For example, a cube that analyzes tourism occupancy data could use the <a href="#https://edint.es/def/dimension#refAdminRegion">administrative region</a> dimension and the <a href="#https://edint.es/def/dimension#refPeriod">period</a> dimension.</a> The measure would be the <a href="#https://edint.es/def/measure#numTravelers">number of travelers</a> which refers to the number of people who have occupied accommodation establishments in a certain period of time, the year 2025, in a certain administrative region, the municipality of Benidorm. Similarly, by adding the dimensions <a href="#https://edint.es/def/dimension#flowType">type of tourist flow</a> and <a href="#https://edint.es/def/dimension#countryOfResidence">country of residence</a>, it is possible to have the (<a href="#https://edint.es/def/measure#numTourists">number of tourists</a>) from a certain country, for example Germany, who have arrived in Benidorm in the year 2025.
 
 <pre><textarea style="resize:none" readonly id="code2" name="code" rows="25" cols="100">
-@prefix owl:    <http://www.w3.org/2002/07/owl#> .
-@prefix dc:     <http://purl.org/dc/terms/> .
-@prefix vann:   <http://purl.org/vocab/vann/> .
-@prefix qb:     <http://purl.org/linked-data/cube#> .
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix time:   <http://www.w3.org/2006/time#> .
-@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
-@prefix sdmx-measure:   <http://purl.org/linked-data/sdmx/2009/measure#> .
-@prefix edintdim:      <http://vocab.linkeddata.es/datosabiertos/def/dimension#> .
-@prefix esadm:         <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
-@prefix edintkos:      <https://edint.es/kos/> .
-@prefix edintmeasure: <http://vocab.linkeddata.es/datosabiertos/def/measure#> .
-@prefix edintgast: <https://edint.es/def/cubo-gasto-comercial/> .
-@prefix edinttemp: <https://edint.es/def/cubo-empleo#> .
-@prefix edinttur: <https://edint.es/def/cubo-turismo#> .
-@prefix edinttemp: <https://edint.es/def/cubo-empleo#> .
-@prefix edintrec: <http://vocab.linkeddata.es/datosabiertos/recurso/>.
-@prefix time:      <http://www.w3.org/2006/time#>.
-
-
-edinttur:dsTourism a qb:DataSet ;
+ex:dataset/DS_Tourism a qb:DataSet ;
     rdfs:label "Dataset de turismo integrado"@es ;
     qb:structure edinttur:DSD_Tourism .
 
-edinttur:obsTourism-001 a qb:Observation ;
-    qb:dataSet edinttur:dsTourism ;
+ex:observation/obsTourism-001 a qb:Observation ;
+    qb:dataSet edinttur:DSD_Tourism ;
 
     # --- Dimensiones ---
-    edintdim:refAdminRegion      esadm:Murcia ;
-    edintdim:refPeriod           edintrec:instanteobs-001;
-    edintdim:countryOfResidence     edintkos:UnitedKingdom ;
+    edintdimension:refAdminRegion       esadm:Murcia ;
+    edintdimension:refPeriod            ex:instant/instanteobs-001;
+    edintdimension:countryOfResidence   edintkoscountry:UnitedKingdom ;
 
     # --- Medidas ---
-    edintdim:averageStay              "4.7"^^xsd:decimal ;
-    edintdim:numTourists              "15420"^^xsd:nonNegativeInteger ;
-    edintmeasure:numTravelers         "3280"^^xsd:nonNegativeInteger ;
-    edintmeasure:overnightStays       "13312"^^xsd:nonNegativeInteger .
+    edintmeasure:averageStay            "4.7"^^xsd:decimal ;
+    edintmeasure:numTourists            "15420"^^xsd:nonNegativeInteger ;
+    edintmeasure:numTravelers           "3280"^^xsd:nonNegativeInteger ;
+    edintmeasure:overnightStays         "13312"^^xsd:nonNegativeInteger .
 
 # --- Año y mes de la observación ---
-edintrec:instanteobs-001 a time:Instant;
-    time:inXSDgYearMonth          "2025-08"^^xsd:gYearMonth .
+ex:instant/instanteobs-001 a time:Instant;
+    time:inXSDgYearMonth                "2025-08"^^xsd:gYearMonth .
 </textarea></pre>
 <script>
     var editor2 = CodeMirror.fromTextArea(document.getElementById("code2"), {
