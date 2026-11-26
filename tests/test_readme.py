@@ -39,13 +39,19 @@ def test_enlaces_bien_formados():
     assert not mal, f"enlaces con espacio antes del paréntesis: {mal[:3]}"
 
 
+def _externo(destino: str) -> bool:
+    """Destino absoluto: el README puede escribirlo como (<url>) o <url>."""
+    limpio = destino.strip().strip("<>").strip()
+    return limpio.startswith(("http://", "https://", "mailto:"))
+
+
 def test_imagenes_existen():
     ls = lineas()
     if ls is None:
         pytest.skip("sin README")
     texto = "\n".join(ls)
-    rels = [m for m in re.findall(r"\]\(([^)#?]+)(?:#[^)]*)?\)", texto) if not m.startswith(("http://", "https://", "mailto:"))]
-    rels += [m for m in re.findall(r'<img[^>]+src="([^"]+)"', texto) if not m.startswith(("http://", "https://"))]
+    rels = [m for m in re.findall(r"\]\(([^)#?]+)(?:#[^)]*)?\)", texto) if not _externo(m)]
+    rels += [m for m in re.findall(r'<img[^>]+src="([^"]+)"', texto) if not _externo(m)]
     rotos = [r for r in rels if not (ROOT / r.strip()).exists()]
     assert not rotos, f"imágenes/enlaces rotos: {sorted(set(rotos))}"
 
