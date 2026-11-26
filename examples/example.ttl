@@ -19,7 +19,6 @@
 @prefix edintemp: <https://edint.es/def/cubo-empleo#> .
 @prefix edinttur: <https://edint.es/def/cubo-turismo#> .
 @prefix ex: <https://example.org/recurso/> .
-@prefix time:      <http://www.w3.org/2006/time#>.
 
 
 
