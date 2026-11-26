@@ -49,55 +49,55 @@
                                                                                      _:genid13 ,
                                                                                      _:genid14 .
 
-_:genid1 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" ;
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid2 <http://xmlns.com/foaf/0.1/name> "Diego Conde Herreros" ;
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid3 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" ;
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid4 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" ;
+_:genid4 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
 _:genid5 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid6 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" ;
+_:genid6 <http://xmlns.com/foaf/0.1/name> "Diego Conde Herreros" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
 _:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> ;
           <http://xmlns.com/foaf/0.1/name> "FEMP" ;
           <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 
-_:genid8 rdfs:label "W3C Data Cube"@en ,
-                     "W3C Data Cube"@es ;
-          <https://w3id.org/widoco/vocab#vocabularyIRI> <https://www.w3.org/TR/vocab-data-cube/> .
+_:genid8 rdfs:label "EDINT Measures"@en ,
+                     "Medidas EDINT"@es ;
+          <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/measure> .
 
-_:genid9 rdfs:label "OWL-Time"@en ,
-                     "OWL-Time"@es ;
-          <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
+_:genid9 rdfs:label "Territorio (esadm)"@es ,
+                     "Territory (esadm)"@en ;
+          <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
 
-_:genid10 rdfs:label "Dimensiones SDMX"@es ,
-                      "SDMX Dimensions"@en ;
-           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/dimension> .
+_:genid10 rdfs:label "Dimensiones EDINT"@es ,
+                      "EDINT Dimensions"@en ;
+           <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/dimension> .
 
-_:genid11 rdfs:label "Medidas SDMX"@es ,
+_:genid11 rdfs:label "W3C Data Cube"@en ,
+                      "W3C Data Cube"@es ;
+           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/cube> .
+
+_:genid12 rdfs:label "OWL-Time"@en ,
+                      "OWL-Time"@es ;
+           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
+
+_:genid13 rdfs:label "Medidas SDMX"@es ,
                       "SDMX Measures"@en ;
            <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/measure> .
 
-_:genid12 rdfs:label "Dimensiones EDINT"@es ,
-                      "EDINT Dimensions"@en ;
-           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/dimension> .
-
-_:genid13 rdfs:label "EDINT Measures"@en ,
-                      "Medidas EDINT"@es ;
-           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/measure> .
-
-_:genid14 rdfs:label "Territorio (esadm)"@es ,
-                      "Territory (esadm)"@en ;
-           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
+_:genid14 rdfs:label "Dimensiones SDMX"@es ,
+                      "SDMX Dimensions"@en ;
+           <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/linked-data/sdmx/2009/dimension> .
 
 #################################################################
 #    Annotation properties
@@ -131,12 +131,36 @@ _:genid14 rdfs:label "Territorio (esadm)"@es ,
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/publisher
 <http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/linked-data/cube#codeList
+<http://purl.org/linked-data/cube#codeList> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/linked-data/cube#component
+<http://purl.org/linked-data/cube#component> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/linked-data/cube#dimension
+<http://purl.org/linked-data/cube#dimension> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/linked-data/cube#measure
+<http://purl.org/linked-data/cube#measure> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/linked-data/cube#order
+<http://purl.org/linked-data/cube#order> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
@@ -153,6 +177,26 @@ _:genid14 rdfs:label "Territorio (esadm)"@es ,
 
 ###  http://xmlns.com/foaf/0.1/name
 <http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://edint.es/def/cubo-empleo#codeList
+<https://edint.es/def/cubo-empleo#codeList> rdf:type owl:AnnotationProperty .
+
+
+###  https://edint.es/def/cubo-empleo#component
+<https://edint.es/def/cubo-empleo#component> rdf:type owl:AnnotationProperty .
+
+
+###  https://edint.es/def/cubo-empleo#dimension
+<https://edint.es/def/cubo-empleo#dimension> rdf:type owl:AnnotationProperty .
+
+
+###  https://edint.es/def/cubo-empleo#measure
+<https://edint.es/def/cubo-empleo#measure> rdf:type owl:AnnotationProperty .
+
+
+###  https://edint.es/def/cubo-empleo#order
+<https://edint.es/def/cubo-empleo#order> rdf:type owl:AnnotationProperty .
 
 
 ###  https://schema.org/affiliation
@@ -195,24 +239,12 @@ _:genid14 rdfs:label "Territorio (esadm)"@es ,
 <https://w3id.org/widoco/vocab#vocabularyLabel> rdf:type owl:AnnotationProperty .
 
 
-###  https://www.w3.org/TR/vocab-data-cube/codeList
-<https://www.w3.org/TR/vocab-data-cube/codeList> rdf:type owl:AnnotationProperty .
+#################################################################
+#    Datatypes
+#################################################################
 
-
-###  https://www.w3.org/TR/vocab-data-cube/component
-<https://www.w3.org/TR/vocab-data-cube/component> rdf:type owl:AnnotationProperty .
-
-
-###  https://www.w3.org/TR/vocab-data-cube/dimension
-<https://www.w3.org/TR/vocab-data-cube/dimension> rdf:type owl:AnnotationProperty .
-
-
-###  https://www.w3.org/TR/vocab-data-cube/measure
-<https://www.w3.org/TR/vocab-data-cube/measure> rdf:type owl:AnnotationProperty .
-
-
-###  https://www.w3.org/TR/vocab-data-cube/order
-<https://www.w3.org/TR/vocab-data-cube/order> rdf:type owl:AnnotationProperty .
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -227,31 +259,49 @@ _:genid14 rdfs:label "Territorio (esadm)"@es ,
 <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> rdf:type owl:ObjectProperty .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> rdf:type owl:ObjectProperty ;
-                                                                            rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> .
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:ObjectProperty .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> rdf:type owl:ObjectProperty ;
-                                                                  rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> .
+###  https://edint.es/def/dimension#countryOfResidence
+<https://edint.es/def/dimension#countryOfResidence> rdf:type owl:ObjectProperty ;
+                                                    rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                                      [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                                        owl:hasValue <https://edint.es/kos/TourismCountry>
+                                                                                      ]
+                                                                                    ) ;
+                                                                 rdf:type owl:Class
+                                                               ] .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> rdf:type owl:ObjectProperty ;
-                                                                        rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
-                                                                        rdfs:range [ rdf:type owl:Class ;
-                                                                                     owl:unionOf ( <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio>
-                                                                                                   <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito>
-                                                                                                   <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio>
-                                                                                                 )
-                                                                                   ] .
+###  https://edint.es/def/dimension#flowType
+<https://edint.es/def/dimension#flowType> rdf:type owl:ObjectProperty ;
+                                          rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                              owl:hasValue <https://edint.es/kos/TourismFlowType>
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
-                                                                   rdfs:range <http://www.w3.org/2006/time#Interval> .
+###  https://edint.es/def/dimension#refAdminRegion
+<https://edint.es/def/dimension#refAdminRegion> rdf:type owl:ObjectProperty ;
+                                                rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+                                                rdfs:range [ rdf:type owl:Class ;
+                                                             owl:unionOf ( <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio>
+                                                                           <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito>
+                                                                           <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio>
+                                                                         )
+                                                           ] .
+
+
+###  https://edint.es/def/dimension#refPeriod
+<https://edint.es/def/dimension#refPeriod> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
+                                           rdfs:range <http://www.w3.org/2006/time#Interval> .
 
 
 #################################################################
@@ -262,68 +312,88 @@ _:genid14 rdfs:label "Territorio (esadm)"@es ,
 <http://purl.org/linked-data/sdmx/2009/measure#obsValue> rdf:type owl:DatatypeProperty .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> rdf:type owl:DatatypeProperty ;
-                                                                            rdfs:range xsd:string .
+###  https://edint.es/def/dimension#registrationNumber
+<https://edint.es/def/dimension#registrationNumber> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:range xsd:string .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces
-<http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> rdf:type owl:DatatypeProperty ;
-                                                                       rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                       rdfs:range xsd:nonNegativeInteger .
+###  https://edint.es/def/measure#availablePlaces
+<https://edint.es/def/measure#availablePlaces> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                               rdfs:range xsd:nonNegativeInteger .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay
-<http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                   rdfs:range xsd:decimal .
+###  https://edint.es/def/measure#averageStay
+<https://edint.es/def/measure#averageStay> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                           rdfs:range xsd:decimal .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation
-<http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> rdf:type owl:DatatypeProperty ;
-                                                                        rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                        rdfs:range xsd:decimal .
+###  https://edint.es/def/measure#degreeOccupation
+<https://edint.es/def/measure#degreeOccupation> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                                rdfs:range xsd:decimal .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces
-<http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> rdf:type owl:DatatypeProperty ;
-                                                                      rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                      rdfs:range xsd:decimal .
+###  https://edint.es/def/measure#growthOfPlaces
+<https://edint.es/def/measure#growthOfPlaces> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                              rdfs:range xsd:decimal .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident
-<http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> rdf:type owl:DatatypeProperty ;
-                                                                            rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                            rdfs:range xsd:decimal .
+###  https://edint.es/def/measure#intensityPerResident
+<https://edint.es/def/measure#intensityPerResident> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                                    rdfs:range xsd:decimal .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                   rdfs:range xsd:nonNegativeInteger .
+###  https://edint.es/def/measure#numTourists
+<https://edint.es/def/measure#numTourists> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                           rdfs:range xsd:nonNegativeInteger .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> rdf:type owl:DatatypeProperty ;
-                                                                    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                    rdfs:range xsd:nonNegativeInteger .
+###  https://edint.es/def/measure#numTravelers
+<https://edint.es/def/measure#numTravelers> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                            rdfs:range xsd:nonNegativeInteger .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces
-<http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> rdf:type owl:DatatypeProperty ;
-                                                                      rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                      rdfs:range xsd:nonNegativeInteger .
+###  https://edint.es/def/measure#occupiedPlaces
+<https://edint.es/def/measure#occupiedPlaces> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                              rdfs:range xsd:nonNegativeInteger .
 
 
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays
-<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> rdf:type owl:DatatypeProperty ;
-                                                                      rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
-                                                                      rdfs:range xsd:nonNegativeInteger .
+###  https://edint.es/def/measure#overnightStays
+<https://edint.es/def/measure#overnightStays> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+                                              rdfs:range xsd:nonNegativeInteger .
 
 
 #################################################################
 #    Classes
 #################################################################
+
+###  http://purl.org/linked-data/cube#CodedProperty
+<http://purl.org/linked-data/cube#CodedProperty> rdf:type owl:Class .
+
+
+###  http://purl.org/linked-data/cube#DataStructureDefinition
+<http://purl.org/linked-data/cube#DataStructureDefinition> rdf:type owl:Class .
+
+
+###  http://purl.org/linked-data/cube#Dataset
+<http://purl.org/linked-data/cube#Dataset> rdf:type owl:Class .
+
+
+###  http://purl.org/linked-data/cube#DimensionProperty
+<http://purl.org/linked-data/cube#DimensionProperty> rdf:type owl:Class .
+
+
+###  http://purl.org/linked-data/cube#MeasureProperty
+<http://purl.org/linked-data/cube#MeasureProperty> rdf:type owl:Class .
+
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio> rdf:type owl:Class ;
@@ -359,142 +429,135 @@ _:genid14 rdfs:label "Territorio (esadm)"@es ,
 <http://www.w3.org/2006/time#Interval> rdf:type owl:Class .
 
 
-###  https://www.w3.org/TR/vocab-data-cube/CodedProperty
-<https://www.w3.org/TR/vocab-data-cube/CodedProperty> rdf:type owl:Class .
-
-
-###  https://www.w3.org/TR/vocab-data-cube/DataStructureDefinition
-<https://www.w3.org/TR/vocab-data-cube/DataStructureDefinition> rdf:type owl:Class .
-
-
-###  https://www.w3.org/TR/vocab-data-cube/DimensionProperty
-<https://www.w3.org/TR/vocab-data-cube/DimensionProperty> rdf:type owl:Class .
-
-
-###  https://www.w3.org/TR/vocab-data-cube/MeasureProperty
-<https://www.w3.org/TR/vocab-data-cube/MeasureProperty> rdf:type owl:Class .
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> rdf:type owl:NamedIndividual ,
-                                                                                     <https://www.w3.org/TR/vocab-data-cube/CodedProperty> ,
-                                                                                     <https://www.w3.org/TR/vocab-data-cube/DimensionProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> rdf:type owl:NamedIndividual ,
-                                                                           <https://www.w3.org/TR/vocab-data-cube/CodedProperty> ,
-                                                                           <https://www.w3.org/TR/vocab-data-cube/DimensionProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> rdf:type owl:NamedIndividual ,
-                                                                                 <https://www.w3.org/TR/vocab-data-cube/DimensionProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> rdf:type owl:NamedIndividual ,
-                                                                            <https://www.w3.org/TR/vocab-data-cube/DimensionProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> rdf:type owl:NamedIndividual ,
-                                                                                     <https://www.w3.org/TR/vocab-data-cube/DimensionProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces
-<http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> rdf:type owl:NamedIndividual ,
-                                                                                <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay
-<http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> rdf:type owl:NamedIndividual ,
-                                                                            <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation
-<http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> rdf:type owl:NamedIndividual ,
-                                                                                 <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces
-<http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> rdf:type owl:NamedIndividual ,
-                                                                               <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident
-<http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> rdf:type owl:NamedIndividual ,
-                                                                                     <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> rdf:type owl:NamedIndividual ,
-                                                                            <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> rdf:type owl:NamedIndividual ,
-                                                                             <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces
-<http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> rdf:type owl:NamedIndividual ,
-                                                                               <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
-###  http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays
-<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> rdf:type owl:NamedIndividual ,
-                                                                               <https://www.w3.org/TR/vocab-data-cube/MeasureProperty> .
-
-
 ###  https://edint.es/def/cubo-turismo#DSD_Tourism
 :DSD_Tourism rdf:type owl:NamedIndividual ,
-                      <https://www.w3.org/TR/vocab-data-cube/DataStructureDefinition> ;
+                      <http://purl.org/linked-data/cube#DataStructureDefinition> ;
              rdfs:comment "Estructura de datos integrada que combina las dimensiones y medidas de los cubos de ocupación turística, flujo turístico e indicadores turísticos."@es ;
              rdfs:label "DSD integrado de turismo"@es ,
                         "Integrated tourism DSD"@en ;
-             <https://www.w3.org/TR/vocab-data-cube/component> [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists>
-                                                               ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces>
-                                                               ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers>
-                                                               ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces>
-                                                               ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces>
-                                                               ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays>
-                                                               ] ,
-                                                               _:genid25 ,
-                                                               _:genid26 ,
-                                                               _:genid27 ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation>
-                                                               ] ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay>
-                                                               ] ,
-                                                               _:genid30 ,
-                                                               _:genid31 ,
-                                                               [ <https://www.w3.org/TR/vocab-data-cube/measure> <http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident>
-                                                               ] .
+             <https://edint.es/def/cubo-empleo#component> [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#averageStay>
+                                                          ] ,
+                                                          _:genid28 ,
+                                                          _:genid29 ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#overnightStays>
+                                                          ] ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#occupiedPlaces>
+                                                          ] ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#degreeOccupation>
+                                                          ] ,
+                                                          _:genid33 ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#numTravelers>
+                                                          ] ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#availablePlaces>
+                                                          ] ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#growthOfPlaces>
+                                                          ] ,
+                                                          _:genid37 ,
+                                                          _:genid38 ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#numTourists>
+                                                          ] ,
+                                                          [ <https://edint.es/def/cubo-empleo#measure> <https://edint.es/def/measure#intensityPerResident>
+                                                          ] .
 
-_:genid25 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> ;
-           <https://www.w3.org/TR/vocab-data-cube/order> 3 .
+_:genid28 <https://edint.es/def/cubo-empleo#dimension> <https://edint.es/def/dimension#registrationNumber> ;
+           <https://edint.es/def/cubo-empleo#order> 5 .
 
-_:genid26 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> ;
-           <https://www.w3.org/TR/vocab-data-cube/order> 2 .
+_:genid29 <https://edint.es/def/cubo-empleo#dimension> <https://edint.es/def/dimension#refAdminRegion> ;
+           <https://edint.es/def/cubo-empleo#order> 1 .
 
-_:genid27 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> ;
-           <https://www.w3.org/TR/vocab-data-cube/order> 1 .
+_:genid33 <https://edint.es/def/cubo-empleo#dimension> <https://edint.es/def/dimension#flowType> ;
+           <https://edint.es/def/cubo-empleo#order> 4 .
 
-_:genid30 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> ;
-           <https://www.w3.org/TR/vocab-data-cube/order> 5 .
+_:genid37 <https://edint.es/def/cubo-empleo#dimension> <https://edint.es/def/dimension#countryOfResidence> ;
+           <https://edint.es/def/cubo-empleo#order> 3 .
 
-_:genid31 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> ;
-           <https://www.w3.org/TR/vocab-data-cube/order> 4 .
+_:genid38 <https://edint.es/def/cubo-empleo#dimension> <https://edint.es/def/dimension#refPeriod> ;
+           <https://edint.es/def/cubo-empleo#order> 2 .
+
+
+###  https://edint.es/def/dimension#countryOfResidence
+<https://edint.es/def/dimension#countryOfResidence> rdf:type owl:NamedIndividual ,
+                                                             <http://purl.org/linked-data/cube#CodedProperty> ,
+                                                             <http://purl.org/linked-data/cube#DimensionProperty> .
+
+
+###  https://edint.es/def/dimension#flowType
+<https://edint.es/def/dimension#flowType> rdf:type owl:NamedIndividual ,
+                                                   <http://purl.org/linked-data/cube#CodedProperty> ,
+                                                   <http://purl.org/linked-data/cube#DimensionProperty> .
+
+
+###  https://edint.es/def/dimension#refAdminRegion
+<https://edint.es/def/dimension#refAdminRegion> rdf:type owl:NamedIndividual ,
+                                                         <http://purl.org/linked-data/cube#DimensionProperty> .
+
+
+###  https://edint.es/def/dimension#refPeriod
+<https://edint.es/def/dimension#refPeriod> rdf:type owl:NamedIndividual ,
+                                                    <http://purl.org/linked-data/cube#DimensionProperty> .
+
+
+###  https://edint.es/def/dimension#registrationNumber
+<https://edint.es/def/dimension#registrationNumber> rdf:type owl:NamedIndividual ,
+                                                             <http://purl.org/linked-data/cube#DimensionProperty> .
+
+
+###  https://edint.es/def/measure#availablePlaces
+<https://edint.es/def/measure#availablePlaces> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#averageStay
+<https://edint.es/def/measure#averageStay> rdf:type owl:NamedIndividual ,
+                                                    <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#degreeOccupation
+<https://edint.es/def/measure#degreeOccupation> rdf:type owl:NamedIndividual ,
+                                                         <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#growthOfPlaces
+<https://edint.es/def/measure#growthOfPlaces> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#intensityPerResident
+<https://edint.es/def/measure#intensityPerResident> rdf:type owl:NamedIndividual ,
+                                                             <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#numTourists
+<https://edint.es/def/measure#numTourists> rdf:type owl:NamedIndividual ,
+                                                    <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#numTravelers
+<https://edint.es/def/measure#numTravelers> rdf:type owl:NamedIndividual ,
+                                                     <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#occupiedPlaces
+<https://edint.es/def/measure#occupiedPlaces> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/def/measure#overnightStays
+<https://edint.es/def/measure#overnightStays> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/linked-data/cube#MeasureProperty> .
+
+
+###  https://edint.es/kos/TourismCountry
+<https://edint.es/kos/TourismCountry> rdf:type owl:NamedIndividual ,
+                                               <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
 ###  https://edint.es/kos/TourismFlowType
@@ -504,97 +567,105 @@ _:genid31 <https://www.w3.org/TR/vocab-data-cube/dimension> <http://vocab.linked
                                                   "Tourism flow type"@en .
 
 
+###  https://example.org/recurso/dataset/DS_Tourism
+<https://example.org/recurso/dataset/DS_Tourism> rdf:type owl:NamedIndividual ,
+                                                          <http://purl.org/linked-data/cube#Dataset> ;
+                                                 <http://purl.org/linked-data/cube#structure> :DSD_Tourism .
+
+
+###  https://oeg.fi.upm.es/
+<https://oeg.fi.upm.es/> rdf:type owl:NamedIndividual ;
+                         <http://xmlns.com/foaf/0.1/name> "Ontology Engineering Group, UPM" .
+
+
 #################################################################
 #    Annotations
 #################################################################
 
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#countryOfResidence> rdfs:comment "Country of residence of the tourist."@en ,
-                                                                                         "País de residencia del turista."@es ;
-                                                                            rdfs:label "country of residence"@en ,
-                                                                                       "país de residencia"@es ;
-                                                                            <https://www.w3.org/TR/vocab-data-cube/codeList> <https://edint.es/kos/country> .
+<https://edint.es/def/dimension#countryOfResidence> rdfs:comment "Country of residence of the tourist."@en ,
+                                                                 "País de residencia del turista."@es ;
+                                                    rdfs:label "country of residence"@en ,
+                                                               "país de residencia"@es ;
+                                                    <https://edint.es/def/cubo-empleo#codeList> <https://edint.es/kos/TourismCountry> .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#flowType> rdfs:comment "Tipo de flujo turístico (nacional, internacional, interprovincial)."@es ,
-                                                                               "Type of tourist flow (national, international, interprovintial)."@en ;
-                                                                  rdfs:label "flow type"@en ,
-                                                                             "tipo de flujo"@es ;
-                                                                  <https://www.w3.org/TR/vocab-data-cube/codeList> <https://edint.es/kos/TourismFlowType> .
+<https://edint.es/def/dimension#flowType> rdfs:comment "Tipo de flujo turístico (nacional, internacional, interprovincial)."@es ,
+                                                       "Type of tourist flow (national, international, interprovintial)."@en ;
+                                          rdfs:label "flow type"@en ,
+                                                     "tipo de flujo"@es ;
+                                          <https://edint.es/def/cubo-empleo#codeList> <https://edint.es/kos/TourismFlowType> .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#refAdminRegion> rdfs:comment "Reference to an administrative region that can be a neighborhood, district, or municipality."@en ,
-                                                                                     "Referencia a una región administrativa que puede ser un barrio, distrito o municipio."@es ;
-                                                                        rdfs:label "reference administrative region"@en ,
-                                                                                   "región administrativa de referencia"@es .
+<https://edint.es/def/dimension#refAdminRegion> rdfs:comment "Reference to an administrative region that can be a neighborhood, district, or municipality."@en ,
+                                                             "Referencia a una región administrativa que puede ser un barrio, distrito o municipio."@es ;
+                                                rdfs:label "reference administrative region"@en ,
+                                                           "región administrativa de referencia"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#refPeriod> rdfs:comment "Intervalo de tiempo que puede ser por ejemplo una semana, un mes, un año."@es ,
-                                                                                "Time interval that can be, for example, a week, a month, a year."@en ;
-                                                                   rdfs:label "período de referencia"@es ,
-                                                                              "reference period"@en .
+<https://edint.es/def/dimension#refPeriod> rdfs:comment "Intervalo de tiempo que puede ser por ejemplo una semana, un mes, un año."@es ,
+                                                        "Time interval that can be, for example, a week, a month, a year."@en ;
+                                           rdfs:label "período de referencia"@es ,
+                                                      "reference period"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/dimension#registrationNumber> rdfs:comment "Número de registro del establecimiento turístico según Segittur."@es ,
-                                                                                         "Tourist accommodation registration number as defined by Segittur."@en ;
-                                                                            rdfs:label "número de registro (Segittur)"@es ,
-                                                                                       "registration number (Segittur)"@en .
+<https://edint.es/def/dimension#registrationNumber> rdfs:comment "Número de registro del establecimiento turístico según Segittur."@es ,
+                                                                 "Tourist accommodation registration number as defined by Segittur."@en ;
+                                                    rdfs:label "número de registro (Segittur)"@es ,
+                                                               "registration number (Segittur)"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#availablePlaces> rdfs:comment "Beda available in Accomodations"@en ,
-                                                                                    "Plazas disponibles en alojamientos."@es ;
-                                                                       rdfs:label "available places"@en ,
-                                                                                  "plazas disponibles"@es .
+<https://edint.es/def/measure#availablePlaces> rdfs:comment "Beda available in Accomodations"@en ,
+                                                            "Plazas disponibles en alojamientos."@es ;
+                                               rdfs:label "available places"@en ,
+                                                          "plazas disponibles"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#averageStay> rdfs:comment "Average number of overnight stays. Measures the total number of overnight stays divided by the total number of tourists."@en ,
-                                                                                "Número de pernoctas en promedio. Mide el número total de pernoctas entre el número total de turistas."@es ;
-                                                                   rdfs:label "average stay"@en ,
-                                                                              "estancia media"@es .
+<https://edint.es/def/measure#averageStay> rdfs:comment "Average number of overnight stays. Measures the total number of overnight stays divided by the total number of tourists."@en ,
+                                                        "Número de pernoctas en promedio. Mide el número total de pernoctas entre el número total de turistas."@es ;
+                                           rdfs:label "average stay"@en ,
+                                                      "estancia media"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#degreeOccupation> rdfs:comment "Grado de uso del alojamiento que permite detectar períodos de alta ocupación turística. Mide el total de plazas ocupadas sobre el total de plazas disponibles en un determinado período."@es ,
-                                                                                     "Occupancy rate, which allows for the detection of peak tourist periods. It measures the total number of occupied beds relative to the total number of available beds during a given period."@en ;
-                                                                        rdfs:label "grado de ocupación"@es ,
-                                                                                   "occupancy rate"@en .
+<https://edint.es/def/measure#degreeOccupation> rdfs:comment "Grado de uso del alojamiento que permite detectar períodos de alta ocupación turística. Mide el total de plazas ocupadas sobre el total de plazas disponibles en un determinado período."@es ,
+                                                             "Occupancy rate, which allows for the detection of peak tourist periods. It measures the total number of occupied beds relative to the total number of available beds during a given period."@en ;
+                                                rdfs:label "grado de ocupación"@es ,
+                                                           "occupancy rate"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#growthOfPlaces> rdfs:comment "Evolución de la capacidad alojativa en un período dado permitiendo conocer si está en expansión, estabilidad o recucción. Mide la variación porcentual de la capacidad alojativa de un período con respecto al período anterior."@es ,
-                                                                                   "The evolution of accommodation capacity over a given period allows us to determine if it is expanding, stable, or declining. It measures the percentage change in accommodation capacity in a certain period with respect to the previous period."@en ;
-                                                                      rdfs:label "crecimiento de plazas"@es ,
-                                                                                 "growth of places"@en .
+<https://edint.es/def/measure#growthOfPlaces> rdfs:comment "Evolución de la capacidad alojativa en un período dado permitiendo conocer si está en expansión, estabilidad o recucción. Mide la variación porcentual de la capacidad alojativa de un período con respecto al período anterior."@es ,
+                                                           "The evolution of accommodation capacity over a given period allows us to determine if it is expanding, stable, or declining. It measures the percentage change in accommodation capacity in a certain period with respect to the previous period."@en ;
+                                              rdfs:label "crecimiento de plazas"@es ,
+                                                         "growth of places"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#intensityPerResident> rdfs:comment "Presión turística en un área determinada. Mide la relación entre el número de visitantes y el número de residentes en la zona."@es ,
-                                                                                         "Tourist pressure in a given area. It measures the relationship between the number of visitors and the number of residents in the area."@en ;
-                                                                            rdfs:label "intensidad por residente"@es ,
-                                                                                       "intensity per resident"@en .
+<https://edint.es/def/measure#intensityPerResident> rdfs:comment "Presión turística en un área determinada. Mide la relación entre el número de visitantes y el número de residentes en la zona."@es ,
+                                                                 "Tourist pressure in a given area. It measures the relationship between the number of visitors and the number of residents in the area."@en ;
+                                                    rdfs:label "intensidad por residente"@es ,
+                                                               "intensity per resident"@en .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTourists> rdfs:comment "Total number national, international, and interprovincial tourists that pass through a tourist site."@en ,
-                                                                                "Total number of national, international and interprovincial tourists passing through a tourist site."@es ;
-                                                                   rdfs:label "number of tourists"@en ,
-                                                                              "número de turistas"@es .
+<https://edint.es/def/measure#numTourists> rdfs:comment "Total number national, international, and interprovincial tourists that pass through a tourist site."@en ,
+                                                        "Total number of national, international and interprovincial tourists passing through a tourist site."@es ;
+                                           rdfs:label "number of tourists"@en ,
+                                                      "número de turistas"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#numTravelers> rdfs:comment "Number of travelers in general. May be tourism or business travelers."@en ,
-                                                                                 "Número de viajeros en general. Pueden ser viajeros de turismo o negocios."@es ;
-                                                                    rdfs:label "number of travelers"@en ,
-                                                                               "número de viajeros"@es .
+<https://edint.es/def/measure#numTravelers> rdfs:comment "Number of travelers in general. May be tourism or business travelers."@en ,
+                                                         "Número de viajeros en general. Pueden ser viajeros de turismo o negocios."@es ;
+                                            rdfs:label "number of travelers"@en ,
+                                                       "número de viajeros"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#occupiedPlaces> rdfs:comment "Número total de plazas que se han ocupado."@es ,
-                                                                                   "Total number of places that have been occupied."@en ;
-                                                                      rdfs:label "occupied places"@en ,
-                                                                                 "plazas ocupadas"@es .
+<https://edint.es/def/measure#occupiedPlaces> rdfs:comment "Número total de plazas que se han ocupado."@es ,
+                                                           "Total number of places that have been occupied."@en ;
+                                              rdfs:label "occupied places"@en ,
+                                                         "plazas ocupadas"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/def/measure#overnightStays> rdfs:comment "Número total de pernoctas por persona."@es ,
-                                                                                   "Total number of overnight stays per person."@en ;
-                                                                      rdfs:label "overnight stays"@en ,
-                                                                                 "pernoctaciones"@es .
-
-
-<https://oeg.fi.upm.es/> <http://xmlns.com/foaf/0.1/name> "Ontology Engineering Group, UPM" .
+<https://edint.es/def/measure#overnightStays> rdfs:comment "Número total de pernoctas por persona."@es ,
+                                                           "Total number of overnight stays per person."@en ;
+                                              rdfs:label "overnight stays"@en ,
+                                                         "pernoctaciones"@es .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

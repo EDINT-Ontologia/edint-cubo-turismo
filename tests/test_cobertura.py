@@ -14,7 +14,7 @@ from pyparsing import ParseException
 from rdflib.plugins.sparql.parser import parseQuery
 from util import ROOT, cargar_grafo_ejemplos
 
-MARCADOR = re.compile(r"<(URI|FECHA)[-_A-Za-z0-9]*>")
+MARCADOR = re.compile(r"<(URI|FECHA|REGION|PERIOD)[-_A-Za-z0-9]*>")
 
 
 def ficheros():
