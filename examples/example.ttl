@@ -15,11 +15,8 @@
 @prefix edintkos:      <https://edint.es/kos/> .
 @prefix edintkoscountry:      <https://edint.es/kos/TourismCountry/> .
 @prefix edintmeasure: <https://edint.es/def/measure#> .
-@prefix edintgast: <https://edint.es/def/cubo-gasto-comercial#> .
-@prefix edintemp: <https://edint.es/def/cubo-empleo#> .
 @prefix edinttur: <https://edint.es/def/cubo-turismo#> .
 @prefix ex: <https://example.org/recurso/> .
-@prefix time:      <http://www.w3.org/2006/time#>.
 
 
 
