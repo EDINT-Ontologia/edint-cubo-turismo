@@ -69,7 +69,7 @@
         <dcterms:description xml:lang="es">La ontología de Cubo de Datos Turísticos describe la estructura de los datos de ocupación turística, flujo turístico e indicadores en un único DSD que reúne todas las dimensiones y medidas.</dcterms:description>
         <dcterms:description xml:lang="en">The Tourism Data Cube ontology describes the structure of tourist occupancy, tourist flow and indicator data in a single DSD that gathers all dimensions and measures.</dcterms:description>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:issued>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:modified>
         <dcterms:publisher>
             <rdf:Description>
@@ -81,7 +81,7 @@
         <dcterms:title xml:lang="es">Cubo de Datos EDINT de Turismo</dcterms:title>
         <dcterms:title xml:lang="en">EDINT Tourism Data Cube</dcterms:title>
         <vann:preferredNamespacePrefix>edinttur</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/cubo-turismo#"/>
+        <vann:preferredNamespaceUri>https://edint.es/def/cubo-turismo#</vann:preferredNamespaceUri>
         <rdfs:label xml:lang="es">Cubo de Datos de Turismo</rdfs:label>
         <rdfs:label xml:lang="en">Tourism Data Cube</rdfs:label>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-cubo-turismo/releases/tag/v0.2.0"/>
